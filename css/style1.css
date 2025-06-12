@@ -992,10 +992,9 @@ footer ul li a:focus::after {
 }
 
 .team-card {
-  background-color: var(--card-bg);
-  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
-  color: var(--text-color);
-  text-align: center; /* This centers the image, name, position */
+  /* A tua classe .card em style1.css já aplica sombra e transição no hover.
+     Podes adicionar mais personalizações aqui se quiseres, por exemplo: */
+  border: 1px solid var(--border-color, #eee); /* Adiciona uma borda subtil se não existir */
 }
 
 .team-card:hover {
@@ -1656,3 +1655,6 @@ footer ul li a:focus::after {
     height: 500px; /* Slightly smaller height on mobile */
   }
 }
+
+/* REMOVED ALL PREVIOUS MEDIA QUERIES FOR NAVBAR ADJUSTMENT
+   because the strategy is now to switch to mobile menu at 1400px. */
