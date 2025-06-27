@@ -1656,5 +1656,3 @@ footer ul li a:focus::after {
   }
 }
 
-/* REMOVED ALL PREVIOUS MEDIA QUERIES FOR NAVBAR ADJUSTMENT
-   because the strategy is now to switch to mobile menu at 1400px. */
