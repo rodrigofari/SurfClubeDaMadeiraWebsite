@@ -568,6 +568,616 @@ const translations = {
     "lessons.feature.duration-per-lesson": "Duração por aula",
   },
   
+  es: {
+    // Navigation
+    "nav.home": "Inicio",
+    "nav.lessons": "Clases", 
+    "nav.discover": "Descubrir Madeira",
+    "nav.faqs": "FAQ",
+    "nav.about": "Sobre Nosotros",
+    "nav.careers": "Carreras",
+    "nav.contact": "Contacto",
+    "nav.book": "Reservar ahora",
+    
+    // Hero Section
+    "hero.title": "Clases de Surf en Madeira: ¡Bienvenido a Surf Clube da Madeira!",
+    "hero.subtitle": "Experimenta la emoción de surfear en las hermosas aguas de la Isla de Madeira",
+    
+    // Services
+    "services.title": "Nuestros Servicios",
+    "service.transport": "Clase de Surf con transporte",
+    "service.no-transport": "Clase de Surf sin transporte", 
+    "service.private": "Clase de Surf Privada",
+    "service.package": "Paquete de 5 clases de surf",
+    "service.equipment": "Alquiler de Equipamiento de Surf",
+    "service.rentals": "Alquileres",
+    "service.camp": "Campos de Surf & Yoga Ohana",
+    "service.camp.more-info": "Haz clic aquí para más información",
+    "service.price": "Precio",
+    "service.price-from": "Desde",
+    
+    // Plan of our Surf Lesson
+    "plan.title": "Plan de Nuestra Clase de Surf",
+    "plan.arrival": "Llegada",
+    "plan.arrival-description": "Si reservaste un lugar, te recogemos en el Parque de Santa Luzia en Funchal. Si no reservaste transporte, puedes encontrarnos en la Playa de Alagoa en Porto da Cruz.",
+    "plan.before-lesson": "Antes de la Clase de Surf",
+    "plan.before-lesson-description": "Primero comenzamos dándote el equipamiento de surf adecuado :) Luego, después de cambiarte al traje de neopreno, comenzamos el calentamiento, te enseñamos la técnica del \"pop up\" y explicamos las reglas de seguridad y de la playa donde vamos a surfear.",
+    "plan.surf-lesson": "Clase de Surf",
+    "plan.surf-lesson-description": "Después del calentamiento, técnica y briefing de seguridad, te llevamos directamente al océano donde durante 1,5 horas nuestros instructores te ayudarán a atrapar tantas olas como sea posible!",
+    
+    // FAQs
+    "faq.title": "Preguntas Frecuentes",
+    "faq.subtitle": "Preguntas comunes sobre nuestras clases en Madeira.",
+    "faq.pickup.question": "¿Dónde es el punto de recogida?",
+    "faq.pickup.answer": "El punto de recogida está en el Jardín de Santa Luzia en Funchal -> <a href=\"https://www.google.pt/maps/place/32%C2%B039'12.6%22N+16%C2%B054'42.6%22W/@32.653497,-16.911831,969m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d32.653497!4d-16.911831?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" rel=\"noopener noreferrer\">Enlace de ubicación de Google</a>.",
+    "faq.bitcoin.question": "¿Cómo pago con Bitcoin?",
+    "faq.bitcoin.answer": "Para pagos en Bitcoin, contáctanos directamente vía WhatsApp en <a href=\"https://wa.me/351963356674\" target=\"_blank\" rel=\"noopener noreferrer\">+351 963 356 674</a> para organizar el pago.",
+    "faq.what-to-bring.question": "¿Qué debo traer a la clase?",
+    "faq.what-to-bring.answer": "Todo lo que necesitas es protector solar, ropa para cambiar, traje de baño, agua y una buena actitud 😊.",
+    "faq.camp.question": "¿Tienen Campos de Surf & Yoga?",
+    "faq.camp.answer": "¡Sí! 😊 <a href=\"https://ohanasurfcamp.pl/surf-yoga-camp-madeira/\" target=\"_blank\" rel=\"noopener noreferrer\">más información sobre el Campo de Surf & Yoga Ohana aquí</a>",
+    
+    // Payment Methods
+    "payment.title": "Formas de pago",
+    
+    // Reviews/Testimonials
+    "reviews.title": "Lo Que Dicen Nuestros Clientes",
+    "reviews.subtitle": "¡Escucha directamente de quienes han experimentado las olas con Surf Clube da Madeira! <a href=\"https://g.co/kgs/k68fkUh\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"font-weight: bold; color: black;\">Lee más aquí</a>",
+    "reviews.read-more": "Lee más aquí",
+    
+    // Gallery
+    "gallery.title": "Galería",
+    "gallery.catch-wave.title": "¡Atrapa la ola!",
+    "gallery.catch-wave.description": "Experimenta la emoción de surfear en las hermosas aguas de Madeira.",
+    "gallery.learn-best.title": "Aprende con los mejores",
+    "gallery.learn-best.description": "Nuestros instructores experimentados te guiarán en cada paso.",
+    "gallery.stunning-scenery.title": "Paisaje Impresionante",
+    "gallery.stunning-scenery.description": "Surfea con el fondo de los paisajes impresionantes de Madeira.",
+    "gallery.more-than-surfing.title": "Más que solo surfear",
+    "gallery.more-than-surfing.description": "Disfruta del sol, arena y buenas vibraciones después de tu clase.",
+    "gallery.fun-all-ages.title": "Diversión para todas las edades",
+    "gallery.fun-all-ages.description": "Niños y adultos pueden disfrutar de la emoción del océano.",
+    
+    // Footer
+    "footer.company-name": "Surf Clube da Madeira",
+    "footer.description": "Tenemos más de 20 años de experiencia enseñando surf y queremos compartir esta forma de vida contigo, con tu familia y amigos en la hermosa Isla de Madeira!",
+    "footer.services": "Servicios",
+    "footer.company": "Empresa",
+    "footer.legal": "Legal",
+    "footer.contact": "Contáctanos",
+    "footer.surf-camps": "Campos de Surf",
+    "footer.privacy": "Política de Privacidad",
+    "footer.terms": "Términos y Condiciones",
+    "footer.copyright": "© Surf Clube da Madeira. Todos los derechos reservados.",
+    
+    // 404 Page
+    "404.title": "Página No Encontrada",
+    "404.subtitle": "La página que buscas no existe.",
+    "404.description": "Parece que tomaste un camino equivocado. ¡No te preocupes, le pasa a los mejores de nosotros!",
+    "404.go-home": "Ir a la Página Principal",
+    "404.explore-lessons": "Explorar Clases",
+    "404.contact-text": "Si crees que esto es un error, por favor",
+    "404.contact-us": "contáctanos",
+    
+    // Contact
+    "contact.location.address": "Praia da Alagoa, Porto da Cruz, Madeira",
+    
+    // Lessons Page
+    "lessons.info.price-value": "Desde 30€",
+    "lessons.info.price": "Precio",
+    "lessons.info.flexible": "Flexible",
+    "lessons.info.participants": "Participantes",
+    "lessons.info.duration": "Duración",
+    "lessons.info.duration-value": "7 días",
+    "lessons.info.included": "Incluido",
+    "lessons.info.included-value": "Todo el equipamiento",
+    "lessons.info.quote": "Presupuesto",
+    "lessons.info.rental-duration": "Duración del alquiler",
+    "lessons.info.rental-duration-value": "1 día",
+    "lessons.info.duration-per-lesson": "~4h",
+    "lessons.feature.duration-transport": "Duración con transporte",
+    "lessons.feature.duration-per-lesson": "Duración por clase",
+    
+    // Features
+    "lessons.feature.amazing-views": "Vistas impresionantes",
+    "lessons.feature.perfect-waves": "Olas perfectas",
+    "lessons.feature.pickup-funchal": "Recogida de Funchal",
+    "lessons.feature.pickup-optional": "Recogida de Funchal (Opcional)",
+    "lessons.feature.pickup-optional-german": "Recogida de Funchal (Opcional)",
+    "lessons.feature.great-location": "Excelente ubicación",
+    "lessons.feature.expert-instructors": "Instructores expertos",
+    "lessons.feature.corporate-focused": "Enfocado en empresas",
+    "lessons.feature.fun-ocean-experience": "Experiencia divertida en el océano",
+    "lessons.feature.team-collaboration": "Colaboración en equipo",
+    "lessons.feature.transport-available": "Transporte disponible",
+    "lessons.feature.rental-day": "Alquiler por día",
+    "lessons.feature.high-quality-equipment": "Equipamiento de alta calidad",
+    "lessons.feature.breathtaking-views": "Vistas impresionantes",
+    "lessons.feature.breakfast-included": "Desayuno incluido",
+    "lessons.feature.airport-transfers": "Traslados del aeropuerto y transporte diario a spots de surf",
+    "lessons.feature.car-trip": "Viaje en coche de 1 día – exploración de la isla",
+    
+    // Buttons
+    "lessons.button.book-surf": "Reservar clase de surf",
+    "lessons.button.book-private": "Reservar clase de surf privada",
+    "lessons.button.book-rental": "Reservar tu alquiler vía WhatsApp",
+    "lessons.button.know-more": "Saber más detalles",
+    "lessons.button.send-email": "Envíanos un email para hablar",
+    
+    // Team Building
+    "lessons.team-building.button": "Envíanos un email para hablar",
+    
+    // Team Building Service (HTML keys)
+    "lessons.team.title": "Paquete de Clases de Surf para Team Building",
+    "lessons.team.description": "¡Mejora la cohesión y colaboración del equipo a través de una experiencia de surf emocionante! Diseñado para empresas, este paquete utiliza el surf para promover comunicación, resolución de problemas y moral entre colegas.",
+    "lessons.team.details.title": "Detalles del Paquete",
+    "lessons.team.details.description": "Nuestras clases de surf especializadas para team building están diseñadas para unir tu equipo empresarial a través de la emoción del surf. Además de surfear, los participantes se involucrarán en desafíos colaborativos, construirán confianza y desarrollarán habilidades de comunicación en un entorno oceánico único e inolvidable. Proporcionamos todo el equipamiento de surf necesario y las opciones de transporte pueden organizarse para adaptarse a las necesidades de tu empresa. La duración total es de aproximadamente 4 horas si se requiere transporte, o 2,5 horas si prefieres encontrarnos directamente en la playa.",
+    "lessons.image.team-building": "Team Building en las olas",
+    
+    // Team Building specific keys (to fix Italian text)
+    "lessons.team.flexible": "Flexible",
+    "lessons.team.quote": "Precio bajo consulta",
+    "lessons.team.participants": "Participantes",
+    "lessons.team.corporate-focused": "Enfocado en empresas",
+    "lessons.team.fun-ocean-experience": "Experiencia divertida en el océano",
+    "lessons.team.team-collaboration": "Colaboración en equipo",
+    "lessons.team.transport-available": "Transporte disponible",
+    
+    // Careers Page
+    "careers.title": "Únete a nuestro equipo en Surf Clube da Madeira",
+    "careers.subtitle": "Descubre emocionantes oportunidades de carrera en el mundo del surf en la hermosa isla de Madeira. Únete a nuestro equipo dinámico y ayúdanos a compartir la pasión por el surf con huéspedes de todo el mundo.",
+    "careers.instructor.title": "Instructor de Surf",
+    "careers.instructor.description": "Buscamos surfistas apasionados con certificación y experiencia de enseñanza. Perfecto para quienes quieren compartir su pasión por el océano.",
+    "careers.apply-instructor": "Postúlate ahora para la posición de instructor de surf",
+    "careers.internship.title": "Programa de Prácticas de Surf",
+    "careers.internship.description": "Gana experiencia práctica en la industria del surf. Perfecto para estudiantes y graduados interesados en una carrera en el surf.",
+    "careers.apply-internship": "Postúlate para las prácticas",
+    "careers.spontaneous.title": "Aplicación Espontánea",
+    "careers.spontaneous.description": "¿No ves la posición correcta? Envíanos tu CV y cuéntanos sobre tus habilidades y pasiones.",
+    "careers.submit-cv": "Enviar CV",
+    
+    // Contact Page
+    "contact.title": "Contáctanos",
+    "contact.subtitle": "¿Tienes preguntas o estás listo para reservar tu aventura de surf? ¡Completa el formulario de abajo o contáctanos directamente!",
+    "contact.whatsapp.title": "WhatsApp",
+    "contact.email.title": "Email",
+    "contact.location.title": "Ubicación",
+    
+    // About Us Page
+    "about.title": "Sobre Surf Clube da Madeira",
+    "about.subtitle": "Descubre nuestra historia, conoce el equipo apasionado detrás de tu aventura de surf y aprende sobre nuestros compromisos únicos.",
+    "about.team.title": "Conoce Nuestro Equipo Dedicado",
+    "about.team.subtitle": "Somos un grupo dinámico de personas apasionadas por lo que hacemos y dedicadas a proporcionar los mejores resultados para nuestros clientes.",
+    "about.joao.name": "João Febrer",
+    "about.joao.title": "CEO",
+    "about.joao.description": "João \"Johny\" Febrer es un instructor de surf con más de 20 años de experiencia en el agua. Conocido por su energía tranquila, profundo conocimiento del océano y gran sentido del humor, João tiene una capacidad natural para conectar personas con el océano de una manera que es tanto educativa como inspiradora. Su enfoque en la enseñanza del surf va más allá de la técnica - se centra en construir respeto por el océano y desarrollar una conexión profunda con la naturaleza.",
+    "about.rodrigo.name": "Rodrigo Farinha",
+    "about.rodrigo.title": "Product Manager",
+    "about.rodrigo.description": "Rodrigo trae más de 15 años de experiencia en surf y una sólida formación en Gestión Deportiva y Ciencias Empresariales. Como ex-campeón regional de surf, juega un papel fundamental en el desarrollo estratégico de la escuela, combinando su pasión por el surf con habilidades empresariales. Su visión va más allá de la enseñanza tradicional del surf - apunta a crear una experiencia holística que incluye no solo habilidades de surf, sino también una comprensión más profunda del océano y su ecosistema.",
+    "about.magdalena.name": "Magdalena Szymaniak",
+    "about.magdalena.title": "Fundadora de los Campos de Surf Ohana",
+    "about.magdalena.description": "Magdalena, la única instructora de surf polaca en Madeira, llegó a la isla en 2019 y se enamoró rápidamente de la escena del surf de la región. Con una maestría en Turismo y Recreación, se especializa en la organización de campos de surf y yoga que combinan actividad física con bienestar. Su enfoque único en la enseñanza del surf incluye no solo aspectos técnicos, sino también mindfulness y conexión con la naturaleza, convirtiéndola en un miembro valorado del equipo de Surf Clube da Madeira.",
+    "about.facts.title": "Datos Interesantes sobre Surf Clube da Madeira",
+    "about.facts.subtitle": "¡Descubre algunos de los hitos y características que nos hacen únicos!",
+    "about.facts.pioneering.title": "Espíritu Pionero",
+    "about.facts.pioneering.subtitle": "1ª Escuela de Surf en Madeira con más de 20 años de experiencia",
+    "about.facts.pioneering.description": "Fuimos la primera escuela de surf establecida en la Isla de Madeira, marcando el comienzo de compartir la pasión por las olas en la región y construyendo más de dos décadas de experiencia.",
+    "about.facts.innovative.title": "Pagos Innovadores",
+    "about.facts.innovative.subtitle": "Primera y única escuela de surf en Madeira en aceptar Bitcoin",
+    "about.facts.innovative.description": "Lideramos el camino de la innovación al ser la primera y única escuela de surf en Madeira en aceptar Bitcoin (BTC) como forma de pago, abrazando el futuro de las finanzas digitales.",
+    "about.facts.green.title": "Compromiso Verde",
+    "about.facts.green.subtitle": "Dedicados a iniciativas sostenibles y limpieza de playas",
+    "about.facts.green.description": "Estamos activamente dedicados a promover la sostenibilidad ambiental en Madeira, incluyendo iniciativas regulares de limpieza de playas y fomentar prácticas de surf amigables con el medio ambiente.",
+    "about.facts.educational.title": "Conexión Educacional",
+    "about.facts.educational.subtitle": "Única escuela de surf con protocolo ERASMUS",
+    "about.facts.educational.description": "Somos la única escuela de surf en Madeira con un protocolo oficial establecido con el programa ERASMUS, promoviendo activamente intercambios culturales y deportivos.",
+    
+    // Discover Madeira Page
+    "discover.hero.title": "Descubre la Magia de Madeira",
+    "discover.hero.subtitle": "Más allá de las olas, explora la cultura vibrante, paisajes impresionantes y actividades emocionantes que Madeira tiene para ofrecer.",
+    "discover.activities.title": "Actividades & Tours",
+    "discover.levada.title": "Paseos Levada y Senderismo",
+    "discover.levada.description": "Explora los canales de riego únicos de Madeira y los bosques de laurel exuberantes. Perfecto para amantes de la naturaleza, ofreciendo senderos diversos y paisajes impresionantes.",
+    "discover.learn-more": "Saber más",
+    "discover.photography.title": "Experiencia Fotográfica de Madeira de Día Completo",
+    "discover.photography.description": "Descubre Madeira a través de los ojos de un fotógrafo local, capturando sus paisajes únicos y joyas escondidas.",
+    "discover.sea.title": "Tours Marítimos",
+    "discover.sea.description": "Presencia la vida marina en su hábitat natural, incluyendo delfines y ballenas, a bordo de un tour en barco cómodo.",
+    "discover.partners.title": "Nuestros Socios de Confianza",
+    "discover.car-rental.title": "Alquiler de Coches",
+    "discover.ab4rent.title": "AB4 Rent",
+    "discover.ab4rent.description": "Alquiler de coches confiable y asequible para explorar la isla a tu ritmo con comodidad y flexibilidad.",
+    "discover.visit-website": "Visitar Sitio Web",
+    "discover.beyond.title": "Beyonde Madeira",
+    "discover.beyond.description": "Alquiler de coches confiable y asequible para explorar la isla a tu ritmo con comodidad y flexibilidad.",
+    "discover.accommodation.title": "Alojamiento",
+    "discover.anislandapart.title": "An Island Apart",
+    "discover.anislandapart.description": "Una empresa líder de gestión de propiedades que ofrece una amplia selección de alojamientos de calidad en toda la Isla de Madeira.",
+    "discover.book-now": "Reservar Ahora",
+    "discover.map.title": "Mapa de Consejos Locales y Recomendaciones",
+    "discover.map.subtitle": "Descubre nuestro mapa interactivo con recomendaciones seleccionadas a mano por nuestro equipo local - presentando los mejores restaurantes, bares, ponchas y discotecas en Madeira. ¡Déjanos saber si te gustan nuestras selecciones! <a href=\"#tally-open=wQyZXg&tally-width=374&tally-emoji-text=👋&tally-emoji-animation=wave\" style=\"font-weight: bold; color: black;\">Evalúa nuestro mapa aquí</a>",
+    "discover.map.review-link": "Evalúa nuestro mapa aquí",
+    "discover.other.title": "Otras Actividades y Joyas Escondidas",
+    "discover.santana.title": "Casas Típicas de Santana",
+    "discover.santana.description": "Descubre las casas triangulares icónicas con techo de paja, un símbolo único del patrimonio cultural y encanto arquitectónico de Madeira.",
+    "discover.explore": "Explorar",
+    "discover.market.title": "Mercado dos Lavradores (Mercado de Agricultores)",
+    "discover.market.description": "¡Sumérgete en los colores, sonidos y sabores locales en el vibrante Mercado de Agricultores en Funchal. ¡No te pierdas probar las frutas exóticas y la Poncha local!",
+    "discover.visit": "Visitar",
+    "discover.lapas.title": "Lapas (Comida Tradicional de Madeira)",
+    "discover.lapas.description": "Las lapas son lapas a la parrilla, una delicia popular de mariscos de Madeira servida con ajo, mantequilla y limón. ¡Simples, frescas y llenas de sabor oceánico - un must para amantes de mariscos!",
+    "discover.taste": "Probar",
+    
+    // Lessons Page
+    "lessons.page.title": "Nuestras Clases de Surf, Paquetes y Alquileres en Madeira",
+    "lessons.page.subtitle": "Aprende a surfear con nuestros instructores locales experimentados",
+    
+    // Image captions
+    "lessons.image.maiata-beach": "Playa de Maiata",
+    "lessons.image.praia-alagoa": "Playa de Alagoa",
+    "lessons.image.machico-beach": "Playa de Machico",
+    
+    // Transport lesson
+    "lessons.transport.title": "Clase de Surf con Transporte",
+    "lessons.transport.description": "¡Inicia tu viaje de surf con facilidad! Nuestra clase de grupo incluye recogida conveniente de Funchal, transporte a los mejores spots de surf y todo el equipamiento. Perfecto para principiantes e intermedios.",
+    
+    // No transport lesson
+    "lessons.no-transport.title": "Clase de Surf sin Transporte",
+    "lessons.no-transport.description": "Encuéntranos directamente en la Playa de Alagoa en Porto da Cruz para tu clase de surf de grupo. Esta opción proporciona flexibilidad, incluyendo todo el equipamiento necesario.",
+    
+    // Private lesson
+    "lessons.private.title": "Clase de Surf Privada",
+    "lessons.private.description": "Recibe atención personalizada y aprendizaje acelerado con una clase de surf privada 1:1 en Madeira. Adaptada a tu nivel de habilidad, ya seas principiante o avanzado.",
+    
+    // Package lesson
+    "lessons.package.title": "Paquete de Surf con 5 Clases",
+    "lessons.package.description": "Profundiza tus habilidades de surf con nuestro paquete con descuento de 5 clases. Diseñado para progresión continua, este paquete incluye todo el equipamiento y transporte opcional.",
+    "lessons.package.details.title": "Detalles del Paquete",
+    "lessons.package.details.description": "¡Una vez que pruebes surfear, nunca más querrás parar! Recibe un paquete de 5 clases con un descuento significativo, permitiéndote construir consistencia y confianza en las olas con nuestros instructores expertos. Cada clase incluye equipamiento completo y enfoque en tu progreso individual.",
+    
+    // Rentals
+    "lessons.rentals.title": "Alquiler de Equipamiento de Surf",
+    "lessons.rentals.description": "Alquila tablas de surf y trajes de neopreno de alta calidad para explorar las olas de Madeira independientemente. Ideal para surfistas experimentados que quieren la libertad de descubrir los mejores spots.",
+    "lessons.rental.details.title": "Detalles del Alquiler",
+    "lessons.rental.details.description": "¡Experimenta la emoción de surfear las olas por ti mismo! Proporcionamos una gama de tablas de surf y trajes de neopreno para varias condiciones y niveles de habilidad. Todo el equipamiento se mantiene regularmente para garantizar una experiencia segura y agradable.",
+    
+    // Camp
+    "lessons.camp.title": "Campo de Surf & Yoga Ohana",
+    "lessons.camp.description": "Acantilados verdes exuberantes sumergiéndose en el océano, innumerables palmeras y olas perfectas te hacen sentir como si estuvieras al otro lado del mundo, ¡pero aún estás en Europa - en Madeira!",
+    "lessons.camp.details.title": "Detalles del Campo",
+    "lessons.camp.surfing": "🌊 <b>Experiencia de Surf -></b> Más de 12 horas de clases de surf de instructores certificados, adecuado para todos los niveles de habilidad. Disponible en Inglés, Portugués, Polaco y Español. Equipamiento (tablas, trajes de neopreno, leashes) y seguro de salud deportivo incluido.",
+    "lessons.camp.yoga": "🧘 <b>Yoga & Bienestar -></b> Tres clases de yoga complementan las sesiones de surf para mejorar flexibilidad, equilibrio y bienestar general, adaptadas para apoyar y mejorar el rendimiento de surf.",
+    "lessons.camp.accommodation": "🏡 <b>Alojamiento -></b> Villa espaciosa en Machico con hermosa playa de arena, cinco dormitorios (cada uno con dos camas individuales), tres baños, cocina completamente equipada, sala de estar acogedora y terraza con vista al océano y montañas. Las comodidades incluyen Wi-Fi gratuito, toallas, ropa de cama, área de barbacoa y estacionamiento gratuito.",
+    "lessons.camp.community": "🤝 <b>Comunidad & Apoyo -></b> Ambiente familiar que anima a viajeros individuales a conectarse. El campo es dirigido por Magdalena, una instructora de surf de Surf Clube da Madeira, y apunta a proporcionar una experiencia local auténtica.",
+    
+    // Details section
+    "lessons.details.title": "Detalles de la Clase de Surf",
+    "lessons.details.description": "Aprende a surfear en un ambiente divertido y seguro con nuestros instructores expertos certificados. Esta clase integral incluye teoría, calentamiento, seguridad y 1,5 horas en el agua.",
+    
+    // Info labels
+    "lessons.info.total-duration": "Duración Total",
+    "lessons.info.max-participants": "Máx. Participantes",
+    "lessons.info.price": "Precio",
+    "lessons.info.flexible": "Flexible",
+    "lessons.info.participants": "Participantes",
+    "lessons.info.duration": "Duración",
+    "lessons.info.duration-value": "7 días",
+    "lessons.info.included": "Incluido",
+    "lessons.info.included-value": "Todo el equipamiento",
+    "lessons.info.price-value": "Desde 30€",
+    "lessons.info.quote": "Presupuesto",
+    "lessons.info.rental-duration": "Duración del alquiler",
+    "lessons.info.rental-duration-value": "1 día",
+    "lessons.info.duration-per-lesson": "~4h",
+    "lessons.feature.duration-transport": "Duración con transporte",
+    "lessons.feature.duration-per-lesson": "Duración por clase",
+  },
+  
+  fr: {
+    // Navigation
+    "nav.home": "Accueil",
+    "nav.lessons": "Cours", 
+    "nav.discover": "Découvrir Madère",
+    "nav.faqs": "FAQ",
+    "nav.about": "À Propos",
+    "nav.careers": "Carrières",
+    "nav.contact": "Contact",
+    "nav.book": "Réserver maintenant",
+    
+    // Hero Section
+    "hero.title": "Cours de Surf à Madère : Bienvenue à Surf Clube da Madeira !",
+    "hero.subtitle": "Vivez l'émotion du surf dans les magnifiques eaux de l'île de Madère",
+    
+    // Services
+    "services.title": "Nos Services",
+    "service.transport": "Cours de surf avec transport",
+    "service.no-transport": "Cours de surf sans transport", 
+    "service.private": "Cours de Surf Privé",
+    "service.package": "Pack de 5 cours de surf",
+    "service.equipment": "Location d'Équipement de Surf",
+    "service.rentals": "Locations",
+    "service.camp": "Camps Surf & Yoga Ohana",
+    "service.camp.more-info": "Cliquez ici pour plus d'informations",
+    "service.price": "Prix",
+    "service.price-from": "À partir de",
+    
+    // Plan of our Surf Lesson
+    "plan.title": "Plan de Notre Cours de Surf",
+    "plan.arrival": "Arrivée",
+    "plan.arrival-description": "Si vous avez réservé un lieu, nous vous récupérons au Parc de Santa Luzia à Funchal. Si vous n'avez pas réservé de transport, vous pouvez nous retrouver directement à la Plage d'Alagoa à Porto da Cruz.",
+    "plan.before-lesson": "Avant le Cours de Surf",
+    "plan.before-lesson-description": "Nous commençons d'abord par vous donner l'équipement de surf approprié :) Ensuite, après vous être changé en combinaison de plongée, nous commençons l'échauffement, vous apprenons la technique du \"pop up\" et expliquons les règles de sécurité et de la plage où nous allons surfer.",
+    "plan.surf-lesson": "Cours de Surf",
+    "plan.surf-lesson-description": "Après l'échauffement, la technique et le briefing de sécurité, nous vous emmenons directement dans l'océan où pendant 1,5 heure nos instructeurs vous aideront à attraper autant de vagues que possible !",
+    
+    // FAQs
+    "faq.title": "Questions Fréquemment Posées",
+    "faq.subtitle": "Questions communes sur nos cours à Madère.",
+    "faq.pickup.question": "Où est le point de ramassage ?",
+    "faq.pickup.answer": "Le point de ramassage se trouve au Jardin de Santa Luzia à Funchal -> <a href=\"https://www.google.pt/maps/place/32%C2%B039'12.6%22N+16%C2%B054'42.6%22W/@32.653497,-16.911831,969m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d32.653497!4d-16.911831?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" rel=\"noopener noreferrer\">Lien de localisation Google</a>.",
+    "faq.bitcoin.question": "Comment payer avec Bitcoin ?",
+    "faq.bitcoin.answer": "Pour les paiements en Bitcoin, contactez-nous directement via WhatsApp au <a href=\"https://wa.me/351963356674\" target=\"_blank\" rel=\"noopener noreferrer\">+351 963 356 674</a> pour organiser le paiement.",
+    "faq.what-to-bring.question": "Que dois-je apporter au cours ?",
+    "faq.what-to-bring.answer": "Tout ce dont vous avez besoin est de la crème solaire, des vêtements de rechange, un maillot de bain, de l'eau et une bonne attitude 😊.",
+    "faq.camp.question": "Avez-vous des Camps Surf & Yoga ?",
+    "faq.camp.answer": "Oui ! 😊 <a href=\"https://ohanasurfcamp.pl/surf-yoga-camp-madeira/\" target=\"_blank\" rel=\"noopener noreferrer\">plus d'informations sur le Camp Surf & Yoga Ohana ici</a>",
+    
+    // Payment Methods
+    "payment.title": "Moyens de paiement",
+    
+    // Reviews/Testimonials
+    "reviews.title": "Ce Que Disent Nos Clients",
+    "reviews.subtitle": "Écoutez directement ceux qui ont vécu l'expérience des vagues avec Surf Clube da Madeira ! <a href=\"https://g.co/kgs/k68fkUh\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"font-weight: bold; color: black;\">Lisez plus ici</a>",
+    "reviews.read-more": "Lisez plus ici",
+    
+    // Gallery
+    "gallery.title": "Galerie",
+    "gallery.catch-wave.title": "Attrapez la vague !",
+    "gallery.catch-wave.description": "Vivez l'émotion du surf dans les magnifiques eaux de Madère.",
+    "gallery.learn-best.title": "Apprenez avec les meilleurs",
+    "gallery.learn-best.description": "Nos instructeurs expérimentés vous guideront à chaque étape.",
+    "gallery.stunning-scenery.title": "Paysage Époustouflant",
+    "gallery.stunning-scenery.description": "Surfez avec en arrière-plan les paysages époustouflants de Madère.",
+    "gallery.more-than-surfing.title": "Plus que du surf",
+    "gallery.more-than-surfing.description": "Profitez du soleil, du sable et des bonnes vibrations après votre cours.",
+    "gallery.fun-all-ages.title": "Amusement pour tous les âges",
+    "gallery.fun-all-ages.description": "Enfants et adultes peuvent profiter de l'émotion de l'océan.",
+    
+    // Footer
+    "footer.company-name": "Surf Clube da Madeira",
+    "footer.description": "Nous avons plus de 20 ans d'expérience dans l'enseignement du surf et nous voulons partager ce mode de vie avec vous, votre famille et vos amis sur la magnifique île de Madère !",
+    "footer.services": "Services",
+    "footer.company": "Entreprise",
+    "footer.legal": "Légal",
+    "footer.contact": "Contactez-nous",
+    "footer.surf-camps": "Camps de Surf",
+    "footer.privacy": "Politique de Confidentialité",
+    "footer.terms": "Termes et Conditions",
+    "footer.copyright": "© Surf Clube da Madeira. Tous droits réservés.",
+    
+    // 404 Page
+    "404.title": "Page Non Trouvée",
+    "404.subtitle": "La page que vous recherchez n'existe pas.",
+    "404.description": "Il semble que vous ayez pris un mauvais chemin. Ne vous inquiétez pas, cela arrive aux meilleurs d'entre nous !",
+    "404.go-home": "Aller à la Page d'Accueil",
+    "404.explore-lessons": "Explorer les Cours",
+    "404.contact-text": "Si vous pensez que c'est une erreur, veuillez",
+    "404.contact-us": "nous contacter",
+    
+    // Contact
+    "contact.location.address": "Praia da Alagoa, Porto da Cruz, Madère",
+    
+    // Lessons Page
+    "lessons.info.price-value": "À partir de 30€",
+    "lessons.info.price": "Prix",
+    "lessons.info.flexible": "Flexible",
+    "lessons.info.participants": "Participants",
+    "lessons.info.duration": "Durée",
+    "lessons.info.duration-value": "7 jours",
+    "lessons.info.included": "Inclus",
+    "lessons.info.included-value": "Tout l'équipement",
+    "lessons.info.quote": "Devis",
+    "lessons.info.rental-duration": "Durée de location",
+    "lessons.info.rental-duration-value": "1 jour",
+    "lessons.info.duration-per-lesson": "~4h",
+    "lessons.feature.duration-transport": "Durée avec transport",
+    "lessons.feature.duration-per-lesson": "Durée par cours",
+    
+    // Features
+    "lessons.feature.amazing-views": "Vues époustouflantes",
+    "lessons.feature.perfect-waves": "Vagues parfaites",
+    "lessons.feature.pickup-funchal": "Prise en charge de Funchal",
+    "lessons.feature.pickup-optional": "Prise en charge de Funchal (Optionnel)",
+    "lessons.feature.pickup-optional-german": "Prise en charge de Funchal (Optionnel)",
+    "lessons.feature.great-location": "Excellente localisation",
+    "lessons.feature.expert-instructors": "Instructeurs experts",
+    "lessons.feature.corporate-focused": "Axé entreprise",
+    "lessons.feature.fun-ocean-experience": "Expérience amusante en océan",
+    "lessons.feature.team-collaboration": "Collaboration d'équipe",
+    "lessons.feature.transport-available": "Transport disponible",
+    "lessons.feature.rental-day": "Location à la journée",
+    "lessons.feature.high-quality-equipment": "Équipement de haute qualité",
+    "lessons.feature.breathtaking-views": "Vues époustouflantes",
+    "lessons.feature.breakfast-included": "Petit-déjeuner inclus",
+    "lessons.feature.airport-transfers": "Transferts aéroport et transport quotidien vers les spots de surf",
+    "lessons.feature.car-trip": "Voyage en voiture d'1 jour – exploration de l'île",
+    
+    // Buttons
+    "lessons.button.book-surf": "Réserver un cours de surf",
+    "lessons.button.book-private": "Réserver un cours de surf privé",
+    "lessons.button.book-rental": "Réserver votre location via WhatsApp",
+    "lessons.button.know-more": "En savoir plus de détails",
+    "lessons.button.send-email": "Envoyez-nous un email pour discuter",
+    
+    // Team Building
+    "lessons.team-building.button": "Envoyez-nous un email pour discuter",
+    
+    // Team Building Service (HTML keys)
+    "lessons.team.title": "Pack de Cours de Surf pour Team Building",
+    "lessons.team.description": "Améliorez la cohésion et la collaboration d'équipe à travers une expérience de surf passionnante ! Conçu pour les entreprises, ce pack utilise le surf pour promouvoir la communication, la résolution de problèmes et le moral entre collègues.",
+    "lessons.team.details.title": "Détails du Pack",
+    "lessons.team.details.description": "Nos cours de surf spécialisés pour le team building sont conçus pour unir votre équipe d'entreprise à travers l'émotion du surf. En plus de surfer, les participants s'engageront dans des défis collaboratifs, construiront la confiance et développeront des compétences de communication dans un environnement océanique unique et inoubliable. Nous fournissons tout l'équipement de surf nécessaire et les options de transport peuvent être organisées pour s'adapter aux besoins de votre entreprise. La durée totale est d'environ 4 heures si le transport est requis, ou 2,5 heures si vous préférez nous rencontrer directement à la plage.",
+    "lessons.image.team-building": "Team Building sur les vagues",
+    
+    // Team Building specific keys (to fix Italian text)
+    "lessons.team.flexible": "Flexible",
+    "lessons.team.quote": "Prix sur demande",
+    "lessons.team.participants": "Participants",
+    "lessons.team.corporate-focused": "Axé entreprise",
+    "lessons.team.fun-ocean-experience": "Expérience amusante en océan",
+    "lessons.team.team-collaboration": "Collaboration d'équipe",
+    "lessons.team.transport-available": "Transport disponible",
+    
+    // Careers Page
+    "careers.title": "Rejoignez notre équipe chez Surf Clube da Madeira",
+    "careers.subtitle": "Découvrez des opportunités de carrière passionnantes dans le monde du surf sur la magnifique île de Madère. Rejoignez notre équipe dynamique et aidez-nous à partager la passion du surf avec des invités du monde entier.",
+    "careers.instructor.title": "Instructeur de Surf",
+    "careers.instructor.description": "Nous recherchons des surfeurs passionnés avec certification et expérience d'enseignement. Parfait pour ceux qui veulent partager leur passion pour l'océan.",
+    "careers.apply-instructor": "Postulez maintenant pour le poste d'instructeur de surf",
+    "careers.internship.title": "Programme de Stage de Surf",
+    "careers.internship.description": "Gagnez une expérience pratique dans l'industrie du surf. Parfait pour les étudiants et diplômés intéressés par une carrière dans le surf.",
+    "careers.apply-internship": "Postulez pour le stage",
+    "careers.spontaneous.title": "Candidature Spontanée",
+    "careers.spontaneous.description": "Vous ne voyez pas le bon poste ? Envoyez-nous votre CV et parlez-nous de vos compétences et passions.",
+    "careers.submit-cv": "Envoyer CV",
+    
+    // Contact Page
+    "contact.title": "Contactez-nous",
+    "contact.subtitle": "Avez-vous des questions ou êtes-vous prêt à réserver votre aventure de surf ? Remplissez le formulaire ci-dessous ou contactez-nous directement !",
+    "contact.whatsapp.title": "WhatsApp",
+    "contact.email.title": "Email",
+    "contact.location.title": "Localisation",
+    
+    // About Us Page
+    "about.title": "À Propos de Surf Clube da Madeira",
+    "about.subtitle": "Découvrez notre histoire, rencontrez l'équipe passionnée derrière votre aventure de surf et apprenez sur nos engagements uniques.",
+    "about.team.title": "Rencontrez Notre Équipe Dévouée",
+    "about.team.subtitle": "Nous sommes un groupe dynamique de personnes passionnées par ce que nous faisons et dédiées à fournir les meilleurs résultats pour nos clients.",
+    "about.joao.name": "João Febrer",
+    "about.joao.title": "PDG",
+    "about.joao.description": "João \"Johny\" Febrer est un instructeur de surf avec plus de 20 ans d'expérience dans l'eau. Connu pour son énergie calme, sa connaissance profonde de l'océan et son grand sens de l'humour, João a une capacité naturelle à connecter les gens avec l'océan d'une manière qui est à la fois éducative et inspirante. Son approche de l'enseignement du surf va au-delà de la technique - il se concentre sur la construction du respect pour l'océan et le développement d'une connexion profonde avec la nature.",
+    "about.rodrigo.name": "Rodrigo Farinha",
+    "about.rodrigo.title": "Product Manager",
+    "about.rodrigo.description": "Rodrigo apporte plus de 15 ans d'expérience en surf et une formation solide en Gestion Sportive et Sciences Commerciales. En tant qu'ancien champion régional de surf, il joue un rôle fondamental dans le développement stratégique de l'école, combinant sa passion pour le surf avec des compétences commerciales. Sa vision va au-delà de l'enseignement traditionnel du surf - elle vise à créer une expérience holistique qui inclut non seulement les compétences de surf, mais aussi une compréhension plus profonde de l'océan et de son écosystème.",
+    "about.magdalena.name": "Magdalena Szymaniak",
+    "about.magdalena.title": "Fondatrice des Camps de Surf Ohana",
+    "about.magdalena.description": "Magdalena, la seule instructrice de surf polonaise à Madère, est arrivée sur l'île en 2019 et est rapidement tombée amoureuse de la scène surf de la région. Avec une maîtrise en Tourisme et Loisirs, elle se spécialise dans l'organisation de camps de surf et yoga qui combinent activité physique et bien-être. Son approche unique de l'enseignement du surf inclut non seulement des aspects techniques, mais aussi la pleine conscience et la connexion avec la nature, faisant d'elle un membre valorisé de l'équipe de Surf Clube da Madeira.",
+    "about.facts.title": "Faits Intéressants sur Surf Clube da Madeira",
+    "about.facts.subtitle": "Découvrez certains des jalons et caractéristiques qui nous rendent uniques !",
+    "about.facts.pioneering.title": "Esprit Pionnier",
+    "about.facts.pioneering.subtitle": "1ère École de Surf à Madère avec plus de 20 ans d'expérience",
+    "about.facts.pioneering.description": "Nous avons été la première école de surf établie sur l'île de Madère, marquant le début du partage de la passion pour les vagues dans la région et construisant plus de deux décennies d'expérience.",
+    "about.facts.innovative.title": "Paiements Innovants",
+    "about.facts.innovative.subtitle": "Première et seule école de surf à Madère à accepter Bitcoin",
+    "about.facts.innovative.description": "Nous menons la voie de l'innovation en étant la première et seule école de surf à Madère à accepter Bitcoin (BTC) comme moyen de paiement, embrassant l'avenir des finances numériques.",
+    "about.facts.green.title": "Engagement Vert",
+    "about.facts.green.subtitle": "Dédiés aux initiatives durables et au nettoyage des plages",
+    "about.facts.green.description": "Nous sommes activement dédiés à promouvoir la durabilité environnementale à Madère, incluant des initiatives régulières de nettoyage des plages et encourager des pratiques de surf respectueuses de l'environnement.",
+    "about.facts.educational.title": "Connexion Éducative",
+    "about.facts.educational.subtitle": "Seule école de surf avec protocole ERASMUS",
+    "about.facts.educational.description": "Nous sommes la seule école de surf à Madère avec un protocole officiel établi avec le programme ERASMUS, promouvant activement les échanges culturels et sportifs.",
+    
+    // Discover Madeira Page
+    "discover.hero.title": "Découvrez la Magie de Madère",
+    "discover.hero.subtitle": "Au-delà des vagues, explorez la culture vibrante, les paysages époustouflants et les activités passionnantes que Madère a à offrir.",
+    "discover.activities.title": "Activités & Tours",
+    "discover.levada.title": "Randonnées Levada et Randonnée",
+    "discover.levada.description": "Explorez les canaux d'irrigation uniques de Madère et les forêts de lauriers luxuriantes. Parfait pour les amoureux de la nature, offrant des sentiers divers et des paysages époustouflants.",
+    "discover.learn-more": "En savoir plus",
+    "discover.photography.title": "Expérience Photographique de Madère d'une Journée Complète",
+    "discover.photography.description": "Découvrez Madère à travers les yeux d'un photographe local, capturant ses paysages uniques et joyaux cachés.",
+    "discover.sea.title": "Tours Maritimes",
+    "discover.sea.description": "Témoignez de la vie marine dans son habitat naturel, incluant les dauphins et baleines, à bord d'un tour en bateau confortable.",
+    "discover.partners.title": "Nos Partenaires de Confiance",
+    "discover.car-rental.title": "Location de Voitures",
+    "discover.ab4rent.title": "AB4 Rent",
+    "discover.ab4rent.description": "Location de voitures fiable et abordable pour explorer l'île à votre rythme avec confort et flexibilité.",
+    "discover.visit-website": "Visiter le Site Web",
+    "discover.beyond.title": "Beyonde Madère",
+    "discover.beyond.description": "Location de voitures fiable et abordable pour explorer l'île à votre rythme avec confort et flexibilité.",
+    "discover.accommodation.title": "Hébergement",
+    "discover.anislandapart.title": "An Island Apart",
+    "discover.anislandapart.description": "Une entreprise leader de gestion de propriétés qui offre une large sélection d'hébergements de qualité sur toute l'île de Madère.",
+    "discover.book-now": "Réserver Maintenant",
+    "discover.map.title": "Carte de Conseils Locaux et Recommandations",
+    "discover.map.subtitle": "Découvrez notre carte interactive avec des recommandations sélectionnées à la main par notre équipe locale - présentant les meilleurs restaurants, bars, ponchas et discothèques à Madère. Faites-nous savoir si vous aimez nos sélections ! <a href=\"#tally-open=wQyZXg&tally-width=374&tally-emoji-text=👋&tally-emoji-animation=wave\" style=\"font-weight: bold; color: black;\">Évaluez notre carte ici</a>",
+    "discover.map.review-link": "Évaluez notre carte ici",
+    "discover.other.title": "Autres Activités et Joyaux Cachés",
+    "discover.santana.title": "Maisons Typiques de Santana",
+    "discover.santana.description": "Découvrez les maisons triangulaires emblématiques avec toit de chaume, un symbole unique du patrimoine culturel et du charme architectural de Madère.",
+    "discover.explore": "Explorer",
+    "discover.market.title": "Mercado dos Lavradores (Marché des Agriculteurs)",
+    "discover.market.description": "Plongez dans les couleurs, sons et saveurs locales au vibrant Marché des Agriculteurs à Funchal. Ne manquez pas de goûter aux fruits exotiques et à la Poncha locale !",
+    "discover.visit": "Visiter",
+    "discover.lapas.title": "Lapas (Nourriture Traditionnelle de Madère)",
+    "discover.lapas.description": "Les lapas sont des patelles grillées, un délice populaire de fruits de mer de Madère servi avec ail, beurre et citron. Simples, fraîches et pleines de saveur océanique - un must pour les amateurs de fruits de mer !",
+    "discover.taste": "Goûter",
+    
+    // Lessons Page
+    "lessons.page.title": "Nos Cours de Surf, Packs et Locations à Madère",
+    "lessons.page.subtitle": "Apprenez à surfer avec nos instructeurs locaux expérimentés",
+    
+    // Image captions
+    "lessons.image.maiata-beach": "Plage de Maiata",
+    "lessons.image.praia-alagoa": "Plage d'Alagoa",
+    "lessons.image.machico-beach": "Plage de Machico",
+    
+    // Transport lesson
+    "lessons.transport.title": "Cours de Surf avec Transport",
+    "lessons.transport.description": "Commencez votre voyage de surf en toute simplicité ! Notre cours de groupe inclut une prise en charge pratique de Funchal, le transport vers les meilleurs spots de surf et tout l'équipement. Parfait pour les débutants et intermédiaires.",
+    
+    // No transport lesson
+    "lessons.no-transport.title": "Cours de Surf sans Transport",
+    "lessons.no-transport.description": "Retrouvez-nous directement à la Plage d'Alagoa à Porto da Cruz pour votre cours de surf de groupe. Cette option offre de la flexibilité, incluant tout l'équipement nécessaire.",
+    
+    // Private lesson
+    "lessons.private.title": "Cours de Surf Privé",
+    "lessons.private.description": "Recevez une attention personnalisée et un apprentissage accéléré avec un cours de surf privé 1:1 à Madère. Adapté à votre niveau de compétence, que vous soyez débutant ou avancé.",
+    
+    // Package lesson
+    "lessons.package.title": "Pack de Surf avec 5 Cours",
+    "lessons.package.description": "Approfondissez vos compétences de surf avec notre pack avec réduction de 5 cours. Conçu pour une progression continue, ce pack inclut tout l'équipement et le transport optionnel.",
+    "lessons.package.details.title": "Détails du Pack",
+    "lessons.package.details.description": "Une fois que vous aurez essayé le surf, vous ne voudrez plus jamais arrêter ! Recevez un pack de 5 cours avec une réduction significative, vous permettant de construire constance et confiance dans les vagues avec nos instructeurs experts. Chaque cours inclut un équipement complet et se concentre sur votre progression individuelle.",
+    
+    // Rentals
+    "lessons.rentals.title": "Location d'Équipement de Surf",
+    "lessons.rentals.description": "Louez des planches de surf et des combinaisons de plongée de haute qualité pour explorer les vagues de Madère indépendamment. Idéal pour les surfeurs expérimentés qui veulent la liberté de découvrir les meilleurs spots.",
+    "lessons.rental.details.title": "Détails de la Location",
+    "lessons.rental.details.description": "Vivez l'émotion de surfer les vagues par vous-même ! Nous fournissons une gamme de planches de surf et combinaisons de plongée pour diverses conditions et niveaux de compétence. Tout l'équipement est régulièrement entretenu pour garantir une expérience sûre et agréable.",
+    
+    // Camp
+    "lessons.camp.title": "Camp Surf & Yoga Ohana",
+    "lessons.camp.description": "Des falaises vertes luxuriantes plongeant dans l'océan, d'innombrables palmiers et des vagues parfaites vous font sentir comme si vous étiez de l'autre côté du monde, mais vous êtes encore en Europe - à Madère !",
+    "lessons.camp.details.title": "Détails du Camp",
+    "lessons.camp.surfing": "🌊 <b>Expérience de Surf -></b> Plus de 12 heures de cours de surf d'instructeurs certifiés, adapté à tous les niveaux de compétence. Disponible en Anglais, Portugais, Polonais et Espagnol. Équipement (planches, combinaisons de plongée, leashes) et assurance santé sportive inclus.",
+    "lessons.camp.yoga": "🧘 <b>Yoga & Bien-être -></b> Trois cours de yoga complètent les sessions de surf pour améliorer flexibilité, équilibre et bien-être général, adaptés pour soutenir et améliorer la performance de surf.",
+    "lessons.camp.accommodation": "🏡 <b>Hébergement -></b> Villa spacieuse à Machico avec belle plage de sable, cinq chambres (chacune avec deux lits simples), trois salles de bain, cuisine entièrement équipée, salon accueillant et terrasse avec vue sur l'océan et les montagnes. Les commodités incluent Wi-Fi gratuit, serviettes, linge de lit, zone barbecue et parking gratuit.",
+    "lessons.camp.community": "🤝 <b>Communauté & Soutien -></b> Ambiance familiale qui encourage les voyageurs individuels à se connecter. Le camp est dirigé par Magdalena, une instructrice de surf de Surf Clube da Madeira, et vise à fournir une expérience locale authentique.",
+    
+    // Details section
+    "lessons.details.title": "Détails du Cours de Surf",
+    "lessons.details.description": "Apprenez à surfer dans un environnement amusant et sûr avec nos instructeurs experts certifiés. Ce cours complet inclut théorie, échauffement, sécurité et 1,5 heure dans l'eau.",
+    
+    // Info labels
+    "lessons.info.total-duration": "Durée Totale",
+    "lessons.info.max-participants": "Max. Participants",
+    "lessons.info.price": "Prix",
+    "lessons.info.flexible": "Flexible",
+    "lessons.info.participants": "Participants",
+    "lessons.info.duration": "Durée",
+    "lessons.info.duration-value": "7 jours",
+    "lessons.info.included": "Inclus",
+    "lessons.info.included-value": "Tout l'équipement",
+    "lessons.info.price-value": "À partir de 30€",
+    "lessons.info.quote": "Devis",
+    "lessons.info.rental-duration": "Durée de location",
+    "lessons.info.rental-duration-value": "1 jour",
+    "lessons.info.duration-per-lesson": "~4h",
+    "lessons.feature.duration-transport": "Durée avec transport",
+    "lessons.feature.duration-per-lesson": "Durée par cours",
+  },
+  
   pl: {
     // Navigation
     "nav.home": "Strona główna",
