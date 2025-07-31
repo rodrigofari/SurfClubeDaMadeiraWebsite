@@ -130,16 +130,34 @@
     </div>
 
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-      <li><a href="index.html" class="nav-link px-2">Home</a></li>
-      <li><a href="lessons.html" class="nav-link px-2">Lessons</a></li>
-      <li><a href="discover_madeira.html" class="nav-link px-2">Discover Madeira</a></li>
-      <li><a href="index.html#FAQs" class="nav-link px-2">FAQs</a></li>
-      <li><a href="about_us.html" class="nav-link px-2">About Us</a></li>
-      <li><a href="careers.html" class="nav-link px-2">Careers</a></li>
-      <li><a href="contact.html" class="nav-link px-2">Contact</a></li>
+      <li><a href="index.html" class="nav-link px-2" data-translate="nav.home">Home</a></li>
+      <li><a href="lessons.html" class="nav-link px-2" data-translate="nav.lessons">Lessons</a></li>
+      <li><a href="discover_madeira.html" class="nav-link px-2" data-translate="nav.discover">Discover Madeira</a></li>
+      <li><a href="index.html#FAQs" class="nav-link px-2" data-translate="nav.faqs">FAQs</a></li>
+      <li><a href="about_us.html" class="nav-link px-2" data-translate="nav.about">About Us</a></li>
+      <li><a href="careers.html" class="nav-link px-2" data-translate="nav.careers">Careers</a></li>
+      <li><a href="contact.html" class="nav-link px-2" data-translate="nav.contact">Contact</a></li>
     </ul>
 
     <div class="col-md-3 text-end">
+      <div class="dropdown me-2 d-inline-block">
+        <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-translate"></i> EN
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+          <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+          <li><a class="dropdown-item" href="#" data-lang="pl">Polski</a></li>
+          <li><a class="dropdown-item" href="#" data-lang="it">Italiano</a></li>
+          <li><a class="dropdown-item" href="#" data-lang="de">Deutsch</a></li>
+          <li><a class="dropdown-item" href="#" data-lang="fr">Français</a></li>
+          <li><a class="dropdown-item" href="#" data-lang="pt">Português</a></li>
+          <li><a class="dropdown-item" href="#" data-lang="es">Español</a></li>
+          <li><a class="dropdown-item" href="#" data-lang="uk">Українська</a></li>
+          <li><a class="dropdown-item" href="#" data-lang="fi">Suomi</a></li>
+          <li><a class="dropdown-item" href="#" data-lang="sv">Svenska</a></li>
+          <li><a class="dropdown-item" href="#" data-lang="ru">Русский</a></li>
+        </ul>
+      </div>
       <style>
           /* Se #bokun_771c5662_5648_44cb_b014_0e61061d172f já está no style1.css, esta tag <style> pode ser removida. */
           #bokun_771c5662_5648_44cb_b014_0e61061d172f {
@@ -151,7 +169,7 @@
           #bokun_771c5662_5648_44cb_b014_0e61061d172f:hover{ background: #22e1d0; }
           #bokun_771c5662_5648_44cb_b014_0e61061d172f:active{ background: #38e4d4; }
       </style>
-      <button class="bokunButton" id="bokun_771c5662_5648_44cb_b014_0e61061d172f" data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1" data-testid="widget-book-button" > Book now </button>
+      <button class="bokunButton" id="bokun_771c5662_5648_44cb_b014_0e61061d172f" data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1" data-testid="widget-book-button" data-translate="nav.book"> Book now </button>
     </div>
   </header>
 </div>
@@ -161,10 +179,28 @@
         <img src="./img/logos/SCM_logo_no background.png" alt="Surf Clube da Madeira Logo" style="height: 40px;">
     </a>
     <div class="d-flex align-items-center">
+        <div class="dropdown me-2">
+          <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="languageDropdownMobile" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-translate"></i> EN
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="languageDropdownMobile">
+            <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="pl">Polski</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="it">Italiano</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="de">Deutsch</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="fr">Français</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="pt">Português</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="es">Español</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="uk">Українська</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="fi">Suomi</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="sv">Svenska</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="ru">Русский</a></li>
+          </ul>
+        </div>
         <button type="button" class="bokunButton btn btn-sm text-white me-2"
                 style="background-color: var(--nav-link-hover-color); border-color: var(--nav-link-hover-color);"
                 data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1"
-                >Book now</button>
+                data-translate="nav.book">Book now</button>
         <button class="navbar-toggler border-0 p-1" type="button" id="mobileMenuToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobileNavOverlay">
             <i class="bi bi-list" style="font-size: 1.75rem; color: var(--text-color);"></i>
         </button>
@@ -179,36 +215,36 @@
       </div>
       <nav class="flex-grow-1 d-flex flex-column" aria-label="Mobile navigation">
           <ul class="list-unstyled text-center my-auto">
-              <li><a href="index.html" class="mobile-nav-link">Home</a></li>
-              <li><a href="lessons.html" class="mobile-nav-link">Lessons</a></li>
-              <li><a href="discover_madeira.html" class="mobile-nav-link">Discover Madeira</a></li>
-              <li><a href="index.html#FAQs" class="mobile-nav-link">FAQs</a></li>
-              <li><a href="about_us.html" class="mobile-nav-link">About Us</a></li>
-              <li><a href="careers.html" class="mobile-nav-link">Careers</a></li>
-              <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+              <li><a href="index.html" class="mobile-nav-link" data-translate="nav.home">Home</a></li>
+              <li><a href="lessons.html" class="mobile-nav-link" data-translate="nav.lessons">Lessons</a></li>
+              <li><a href="discover_madeira.html" class="mobile-nav-link" data-translate="nav.discover">Discover Madeira</a></li>
+              <li><a href="index.html#FAQs" class="mobile-nav-link" data-translate="nav.faqs">FAQs</a></li>
+              <li><a href="about_us.html" class="mobile-nav-link" data-translate="nav.about">About Us</a></li>
+              <li><a href="careers.html" class="mobile-nav-link" data-translate="nav.careers">Careers</a></li>
+              <li><a href="contact.html" class="mobile-nav-link" data-translate="nav.contact">Contact</a></li>
           </ul>
       </nav>
       <div class="py-3 text-center">
           <button type="button" class="bokunButton btn btn-lg w-100 text-white"
                   style="background-color: var(--nav-link-hover-color); border-color: var(--nav-link-hover-color);"
                   data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1"
-                  >Book Now</button>
+                  data-translate="nav.book">Book Now</button>
       </div>
   </div>
 </div>
 
 <main>
   <div class="container py-5 text-center">
-      <h1 class="display-4 fw-bold mb-4">About Surf Clube da Madeira</h1>
-      <p class="lead">Discover our story, meet the passionate team behind your surf adventure, and learn about our unique commitments.</p>
+              <h1 class="display-4 fw-bold mb-4" data-translate="about.title">About Surf Clube da Madeira</h1>
+      <p class="lead" data-translate="about.subtitle">Discover our story, meet the passionate team behind your surf adventure, and learn about our unique commitments.</p>
   </div>
 
   <section class="team-section py-5 bg-white">
     <div class="container">
       <div class="row mb-5">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-title">Meet Our Dedicated Team</h2>
-          <p class="lead">We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.</p>
+          <h2 class="section-title" data-translate="about.team.title">Meet Our Dedicated Team</h2>
+          <p class="lead" data-translate="about.team.subtitle">We're a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.</p>
         </div>
       </div>
 
@@ -218,10 +254,10 @@
           <div class="team-card p-4 rounded shadow-sm h-100 d-flex flex-column align-items-center text-center">
             <img src="./img/2022_09_30_ohanasurfcamp3-120.webp" alt="Portrait of João Febrer, CEO and Surf Instructor" class="rounded-circle mb-3 team-img">
             <div>
-              <h5 class="mb-1 name">João Febrer</h5>
-              <p class="mb-3 position">CEO</p>
+              <h5 class="mb-1 name" data-translate="about.joao.name">João Febrer</h5>
+              <p class="mb-3 position" data-translate="about.joao.title">CEO</p>
             </div>
-            <p class="team-bio mb-3 text-justify">João “Johny” Febrer is a surf instructor with over 20 years of experience in the water. Known for his calm energy, deep ocean knowledge, and great sense of humor, Johny has a special gift for creating unforgettable memories for every client. His sessions go beyond technique—bringing joy, confidence, and connection to the surf experience.</p>
+            <p class="team-bio mb-3 text-justify" data-translate="about.joao.description">João "Johny" Febrer is a surf instructor with over 20 years of experience in the water. Known for his calm energy, deep ocean knowledge, and great sense of humor, Johny has a special gift for creating unforgettable memories for every client. His sessions go beyond technique—bringing joy, confidence, and connection to the surf experience.</p>
 
             <div class="team-achievements mb-3">
               <div class="achievement-item">
@@ -253,10 +289,10 @@
           <div class="team-card p-4 rounded shadow-sm h-100 d-flex flex-column align-items-center text-center">
             <img src="./img/team/rodrigo_perfil.png" alt="Portrait of Rodrigo Farinha, Product Manager" class="rounded-circle mb-3 team-img">
             <div>
-              <h5 class="mb-1 name">Rodrigo Farinha</h5>
-              <p class="mb-3 position">Product Manager</p>
+              <h5 class="mb-1 name" data-translate="about.rodrigo.name">Rodrigo Farinha</h5>
+              <p class="mb-3 position" data-translate="about.rodrigo.title">Product Manager</p>
             </div>
-            <p class="team-bio mb-3 text-justify">Rodrigo brings over 15 years of surf experience and a solid background in Sports Management and Business Sciences. A former Regional Surf Champion, he plays a key role behind the scenes—overseeing operations, refining our services, and ensuring every client has an exceptional experience. Always connected to the ocean, he’s ready to lend a hand in the water when needed.</p>
+            <p class="team-bio mb-3 text-justify" data-translate="about.rodrigo.description">Rodrigo brings over 15 years of surf experience and a solid background in Sports Management and Business Sciences. A former Regional Surf Champion, he plays a key role behind the scenes—overseeing operations, refining our services, and ensuring every client has an exceptional experience. Always connected to the ocean, he's ready to lend a hand in the water when needed.</p>
 
             <div class="team-achievements mb-3">
               <div class="achievement-item">
@@ -289,10 +325,10 @@
           <div class="team-card p-4 rounded shadow-sm h-100 d-flex flex-column align-items-center text-center">
             <img src="./img/team/magdalena.jpg" alt="Portrait of Magdalena Szymaniak, Ohana Surf Camps Founder" class="rounded-circle mb-3 team-img">
             <div>
-              <h5 class="mb-1 name">Magdalena Szymaniak</h5>
-              <p class="mb-3 position">Ohana Surf Camps Founder</p>
+              <h5 class="mb-1 name" data-translate="about.magdalena.name">Magdalena Szymaniak</h5>
+              <p class="mb-3 position" data-translate="about.magdalena.title">Ohana Surf Camps Founder</p>
             </div>
-            <p class="team-bio mb-3 text-justify">Magdalena, the only Polish surf instructor in Madeira, arrived on the island in 2019 and quickly fell in love with the area's surfing scene. With a Master's degree in Physical Education, she has the knowledge and expertise to provide excellent surf coaching and Polish surf lessons to tourists and locals alike. With a keen eye for detail and a passion for surfing, Magdalena has an incredible capacity to assess her students' needs and guide them towards achieving the perfect technique.</p>
+            <p class="team-bio mb-3 text-justify" data-translate="about.magdalena.description">Magdalena, the only Polish surf instructor in Madeira, arrived on the island in 2019 and quickly fell in love with the area's surfing scene. With a Master's degree in Physical Education, she has the knowledge and expertise to provide excellent surf coaching and Polish surf lessons to tourists and locals alike. With a keen eye for detail and a passion for surfing, Magdalena has an incredible capacity to assess her students' needs and guide them towards achieving the perfect technique.</p>
 
             <div class="team-achievements mb-3">
               <div class="achievement-item">
@@ -330,8 +366,8 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col-lg-10 mx-auto text-center">
-          <h2 class="section-title">Fun Facts about Surf Clube da Madeira</h2>
-          <p class="lead text-muted mt-3">Discover some of the landmarks and characteristics that make us unique!</p>
+          <h2 class="section-title" data-translate="about.facts.title">Fun Facts about Surf Clube da Madeira</h2>
+          <p class="lead text-muted mt-3" data-translate="about.facts.subtitle">Discover some of the landmarks and characteristics that make us unique!</p>
         </div>
       </div>
 
@@ -341,36 +377,36 @@
           <div class="icon-wrapper">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-award"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></svg>
           </div>
-          <h3 class="feature-heading">Pioneering Spirit</h3>
-          <h4 class="feature-subheading">1st Surf School in Madeira with 20+ Years Experience</h4>
-          <p class="feature-body">We were the first surf school to be established on Madeira Island, marking the beginning of sharing the passion for waves in the region and building over two decades of expertise.</p>
+                      <h3 class="feature-heading" data-translate="about.facts.pioneering.title">Pioneering Spirit</h3>
+            <h4 class="feature-subheading" data-translate="about.facts.pioneering.subtitle">1st Surf School in Madeira with 20+ Years Experience</h4>
+          <p class="feature-body" data-translate="about.facts.pioneering.description">We were the first surf school to be established on Madeira Island, marking the beginning of sharing the passion for waves in the region and building over two decades of expertise.</p>
         </div>
 
         <div class="feature-card">
           <div class="icon-wrapper">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bitcoin"><path d="M11.767 19.089c4.924.868 6.14-6.025 1.216-6.894m-1.216 6.894L5.86 18.047m5.908 1.042-.347 1.97m1.563-8.864c4.924.869 6.14-6.025 1.215-6.893m-1.215 6.893-3.94-.694m5.155-6.2L8.29 4.26m5.908 1.042.348-1.97M7.48 20.364l3.126-17.727"/></svg>
           </div>
-          <h3 class="feature-heading">Innovative Payments</h3>
-          <h4 class="feature-subheading">First & Only Surf School in Madeira Accepting Bitcoin</h4>
-          <p class="feature-body">We led the way in innovation by being the first and the only surf school in Madeira to accept Bitcoin (BTC) as a form of payment, embracing the future of finance (We took the orange pill 💊).</p>
+                      <h3 class="feature-heading" data-translate="about.facts.innovative.title">Innovative Payments</h3>
+            <h4 class="feature-subheading" data-translate="about.facts.innovative.subtitle">First & Only Surf School in Madeira Accepting Bitcoin</h4>
+          <p class="feature-body" data-translate="about.facts.innovative.description">We led the way in innovation by being the first and the only surf school in Madeira to accept Bitcoin (BTC) as a form of payment, embracing the future of finance (We took the orange pill 💊).</p>
         </div>
 
         <div class="feature-card">
           <div class="icon-wrapper">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-recycle"><path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5"/><path d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12"/><path d="m14 16-3 3 3 3"/><path d="M8.293 13.596 7.196 9.5 3.1 10.598"/><path d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843"/><path d="m13.378 9.633 4.096 1.098 1.097-4.096"/></svg>
           </div>
-          <h3 class="feature-heading">Green Commitment</h3>
-          <h4 class="feature-subheading">Dedicated to Sustainable Initiatives & Beach Clean-ups</h4>
-          <p class="feature-body">We are actively dedicated to promoting environmental sustainability on Madeira, including regular beach clean-up initiatives and fostering eco-friendly surf practices.</p>
+                      <h3 class="feature-heading" data-translate="about.facts.green.title">Green Commitment</h3>
+            <h4 class="feature-subheading" data-translate="about.facts.green.subtitle">Dedicated to Sustainable Initiatives & Beach Clean-ups</h4>
+          <p class="feature-body" data-translate="about.facts.green.description">We are actively dedicated to promoting environmental sustainability on Madeira, including regular beach clean-up initiatives and fostering eco-friendly surf practices.</p>
         </div>
 
         <div class="feature-card">
           <div class="icon-wrapper">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-university"><path d="M14 21v-3a2 2 0 0 0-4 0v3"/><path d="M18 12h.01"/><path d="M18 16h.01"/><path d="M22 7a1 1 0 0 0-1-1h-2a2 2 0 0 1-1.143-.359L13.143 2.36a2 2 0 0 0-2.286-.001L6.143 5.64A2 2 0 0 1 5 6H3a1 1 0 0 0-1 1v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2z"/><path d="M6 12h.01"/><path d="M6 16h.01"/><circle cx="12" cy="10" r="2"/></svg>
           </div>
-          <h3 class="feature-heading">Educational Connection</h3>
-          <h4 class="feature-subheading">Only Surf School with ERASMUS Protocol</h4>
-          <p class="feature-body">We are the only surf school in Madeira with an official protocol established with the ERASMUS program, actively promoting cultural and sporting exchanges for students.</p>
+                      <h3 class="feature-heading" data-translate="about.facts.educational.title">Educational Connection</h3>
+            <h4 class="feature-subheading" data-translate="about.facts.educational.subtitle">Only Surf School with ERASMUS Protocol</h4>
+          <p class="feature-body" data-translate="about.facts.educational.description">We are the only surf school in Madeira with an official protocol established with the ERASMUS program, actively promoting cultural and sporting exchanges for students.</p>
         </div>
 
       </div>
@@ -380,8 +416,8 @@
   <div class="container">
     <div class="row text-center text-md-start align-items-start">
       <div class="col-md-3 mb-4 mb-md-0">
-        <h3>Surf Clube da Madeira</h3>
-        <p>We have over 20 years of experience in teaching surf and we want to share this way of living with you, your family and friends!</p>
+        <h3 data-translate="footer.company-name">Surf Clube da Madeira</h3>
+        <p data-translate="footer.description">We have over 20 years of experience in teaching surf and we want to share this way of living with you, your family and friends!</p>
         <div class="footer-social mt-3">
           <a href="https://www.instagram.com/surfclubedamadeira/" target="_blank" rel="noopener noreferrer" class="me-2"><i class="bi bi-instagram"></i><span class="visually-hidden">Instagram</span></a>
           <a href="https://www.facebook.com/p/Surf-Clube-da-Madeira-100063827790722/" target="_blank" rel="noopener noreferrer" class="me-2"><i class="bi bi-facebook"></i><span class="visually-hidden">Facebook</span></a>
@@ -390,33 +426,33 @@
       </div>
 
       <div class="col-md-2 mb-4 mb-md-0">
-        <h3>Services</h3>
+        <h3 data-translate="footer.services">Services</h3>
         <ul class="list-unstyled">
-          <li><a href="lessons.html">Lessons</a></li>
-          <li><a href="discover_madeira.html">Discover Madeira</a></li>
-          <li><a href="lessons.html#ohana-surf-camp">Surf Camps</a></li>
+          <li><a href="lessons.html" data-translate="nav.lessons">Lessons</a></li>
+          <li><a href="discover_madeira.html" data-translate="nav.discover">Discover Madeira</a></li>
+          <li><a href="lessons.html#ohana-surf-camp" data-translate="footer.surf-camps">Surf Camps</a></li>
         </ul>
       </div>
 
       <div class="col-md-2 mb-4 mb-md-0">
-        <h3>Company</h3>
+        <h3 data-translate="footer.company">Company</h3>
         <ul class="list-unstyled">
-          <li><a href="about_us.html">About</a></li>
-          <li><a href="careers.html">Careers</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about_us.html" data-translate="nav.about">About</a></li>
+          <li><a href="careers.html" data-translate="nav.careers">Careers</a></li>
+          <li><a href="contact.html" data-translate="nav.contact">Contact</a></li>
         </ul>
       </div>
 
       <div class="col-md-2 mb-4 mb-md-0">
-        <h3>Legal</h3>
+        <h3 data-translate="footer.legal">Legal</h3>
         <ul class="list-unstyled">
-          <li><a href="https://drive.google.com/file/d/1PNuWIMNe7-9dlUKoEaC7u7DvNkcxEX7b/view?usp=sharing" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
-          <li><a href="https://drive.google.com/file/d/1YjUzVLjGI1S2TUgJB5jFKYN8I7fnmcfN/view?usp=sharing" target="_blank" rel="noopener noreferrer">Terms & Conditions</a></li>
+          <li><a href="https://drive.google.com/file/d/1PNuWIMNe7-9dlUKoEaC7u7DvNkcxEX7b/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-translate="footer.privacy">Privacy Policy</a></li>
+          <li><a href="https://drive.google.com/file/d/1YjUzVLjGI1S2TUgJB5jFKYN8I7fnmcfN/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-translate="footer.terms">Terms & Conditions</a></li>
         </ul>
       </div>
 
       <div class="col-md-3 mb-4 mb-md-0">
-        <h3>Contact Us</h3>
+        <h3 data-translate="footer.contact">Contact Us</h3>
         <ul class="list-unstyled">
           <li>
             <i class="bi bi-telephone-fill me-2"></i>
@@ -428,14 +464,14 @@
           </li>
           <li>
             <i class="bi bi-geo-alt-fill me-2"></i>
-            <span>Praia da Alagoa, Porto da Cruz, Madeira</span>
+            <span data-translate="contact.location.address">Praia da Alagoa, Porto da Cruz, Madeira</span>
           </li>
         </ul>
       </div>
     </div>
 
     <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between mt-5 pt-3 border-top">
-      <p class="mb-2 mb-md-0">© <span id="current-year"></span> Surf Clube da Madeira. All rights reserved.</p>
+      <p class="mb-2 mb-md-0" data-translate="footer.copyright">© <span id="current-year"></span> Surf Clube da Madeira. All rights reserved.</p>
     </div>
   </div>
 </footer>
@@ -550,6 +586,7 @@
     });
   });
 </script>
+      <script src="./js/translations.js?v=20250804"></script>
 </body>
 
 </html>

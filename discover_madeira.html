@@ -148,28 +148,35 @@
       </div>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="index.html" class="nav-link px-2">Home</a></li>
-        <li><a href="lessons.html" class="nav-link px-2">Lessons</a></li>
-        <li><a href="discover_madeira.html" class="nav-link px-2">Discover Madeira</a></li>
-        <li><a href="index.html#FAQs" class="nav-link px-2">FAQs</a></li>
-        <li><a href="about_us.html" class="nav-link px-2">About Us</a></li>
-        <li><a href="careers.html" class="nav-link px-2">Careers</a></li>
-        <li><a href="contact.html" class="nav-link px-2">Contact</a></li>
+        <li><a href="index.html" class="nav-link px-2" data-translate="nav.home">Home</a></li>
+        <li><a href="lessons.html" class="nav-link px-2" data-translate="nav.lessons">Lessons</a></li>
+        <li><a href="discover_madeira.html" class="nav-link px-2" data-translate="nav.discover">Discover Madeira</a></li>
+        <li><a href="index.html#FAQs" class="nav-link px-2" data-translate="nav.faqs">FAQs</a></li>
+        <li><a href="about_us.html" class="nav-link px-2" data-translate="nav.about">About Us</a></li>
+        <li><a href="careers.html" class="nav-link px-2" data-translate="nav.careers">Careers</a></li>
+        <li><a href="contact.html" class="nav-link px-2" data-translate="nav.contact">Contact</a></li>
       </ul>
 
-      <div class="col-md-3 text-end">
-        <style>
-          /* Se #bokun_771c5662_5648_44cb_b014_0e61061d172f já está no style1.css, esta tag <style> pode ser removida. */
-          #bokun_771c5662_5648_44cb_b014_0e61061d172f {
-            display: inline-block; padding: 10px 20px; background: #65eade; border-radius: 5px;
-            box-shadow: 0 8px 12px rgba(0,0,0,0.19); font-weight: 600; font-size: 16px;
-            text-decoration: none; text-align: center; color: #FFFFFF; border:none; cursor: pointer;
-            transition: background .2s ease;
-          }
-          #bokun_771c5662_5648_44cb_b014_0e61061d172f:hover{ background: #22e1d0; }
-          #bokun_771c5662_5648_44cb_b014_0e61061d172f:active{ background: #38e4d4; }
-        </style>
-        <button class="bokunButton" id="bokun_771c5662_5648_44cb_b014_0e61061d172f" data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1"> Book now </button>
+      <div class="col-md-3 text-end d-flex align-items-center justify-content-end">
+        <div class="dropdown me-3">
+          <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-translate"></i> EN
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+            <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="pl">Polski</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="it">Italiano</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="de">Deutsch</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="fr">Français</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="pt">Português</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="es">Español</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="uk">Українська</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="fi">Suomi</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="sv">Svenska</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="ru">Русский</a></li>
+          </ul>
+        </div>
+        <button class="bokunButton" id="bokun_771c5662_5648_44cb_b014_0e61061d172f" data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1" data-testid="widget-book-button" data-translate="nav.book"> Book now </button>
       </div>
     </header>
   </div>
@@ -182,7 +189,25 @@
           <button type="button" class="bokunButton btn btn-sm text-white me-2"
                   style="background-color: var(--nav-link-hover-color); border-color: var(--nav-link-hover-color);"
                   data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1"
-                  >Book now</button>
+                  data-translate="nav.book">Book now</button>
+          <div class="dropdown me-2">
+            <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="languageDropdownMobile" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-translate"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="languageDropdownMobile">
+              <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="pl">Polski</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="it">Italiano</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="de">Deutsch</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="fr">Français</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="pt">Português</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="es">Español</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="uk">Українська</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="fi">Suomi</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="sv">Svenska</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="ru">Русский</a></li>
+            </ul>
+          </div>
           <button class="navbar-toggler border-0 p-1" type="button" id="mobileMenuToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobileNavOverlay">
               <i class="bi bi-list" style="font-size: 1.75rem; color: var(--text-color);"></i>
           </button>
@@ -220,8 +245,8 @@
       <div class="container col-xxl-8 px-4 py-5 position-absolute top-50 start-50 translate-middle text-center text-lg-start">
         <div class="row align-items-center g-5">
           <div class="col-lg-8 offset-lg-2">
-            <h1 class="display-5 fw-bold lh-1 mb-3 text-center">Discover the Magic of Madeira</h1>
-            <p class="lead text-center">Beyond the waves, explore the vibrant culture, breathtaking landscapes, and exciting activities Madeira has to offer.</p>
+            <h1 class="display-5 fw-bold lh-1 mb-3 text-center" data-translate="discover.hero.title">Discover the Magic of Madeira</h1>
+            <p class="lead text-center" data-translate="discover.hero.subtitle">Beyond the waves, explore the vibrant culture, breathtaking landscapes, and exciting activities Madeira has to offer.</p>
           </div>
         </div>
       </div>
@@ -229,7 +254,7 @@
 
     <section class="py-5">
       <div class="container">
-        <h2 class="pb-2 border-bottom text-center mb-4">Activities & Tours</h2>
+        <h2 class="pb-2 border-bottom text-center mb-4" data-translate="discover.activities.title">Activities & Tours</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
           <div class="col">
@@ -238,9 +263,9 @@
                 <img src="./img/discover_madeira/madeira_levadas_nature.webp" class="card-img-top card-img-fixed-height" alt="Scenic Levada walk in Madeira's lush forests">
                 <img src="./img/logos/SCM_logo.png" alt="Surf Clube da Madeira Logo" class="card-img-overlay-logo rounded-circle">
               </div>
-              <div class="card-body d-flex flex-column"> <h5 class="card-title">Levada Walks & Hiking</h5>
-                <p class="card-text">Explore Madeira's unique irrigation channels and lush laurel forests. Perfect for nature lovers, offering diverse trails and stunning scenery.</p>
-                <a href="https://your-madeira.com/2025/03/16/how-to-navigate-madeiras-famous-levada-walks/" class="btn btn-primary mt-auto" target="_blank" rel="noopener noreferrer">Learn More</a> </div>
+              <div class="card-body d-flex flex-column"> <h5 class="card-title" data-translate="discover.levada.title">Levada Walks & Hiking</h5>
+                <p class="card-text" data-translate="discover.levada.description">Explore Madeira's unique irrigation channels and lush laurel forests. Perfect for nature lovers, offering diverse trails and stunning scenery.</p>
+                <a href="https://your-madeira.com/2025/03/16/how-to-navigate-madeiras-famous-levada-walks/" class="btn btn-primary mt-auto" target="_blank" rel="noopener noreferrer" data-translate="discover.learn-more">Learn More</a> </div>
             </div>
           </div>
 
@@ -249,9 +274,9 @@
               <div class="card-img-container">
                 <img src="./img/discover_madeira/madeira_cliff_S_Jorge.webp" class="card-img-top card-img-fixed-height" alt="Photographer guiding a full-day photography tour in Madeira">
               </div>
-              <div class="card-body d-flex flex-column"> <h5 class="card-title">Madeira Full-Day Photography Experience</h5>
-                <p class="card-text">Discover Madeira through the eyes of a local photographer, capturing its unique landscapes and hidden gems.</p>
-                <a href="https://www.picturetheworld.co/madeira-photo-tour" class="btn btn-primary mt-auto" target="_blank" rel="noopener noreferrer">Learn More</a> </div>
+              <div class="card-body d-flex flex-column"> <h5 class="card-title" data-translate="discover.photography.title">Madeira Full-Day Photography Experience</h5>
+                <p class="card-text" data-translate="discover.photography.description">Discover Madeira through the eyes of a local photographer, capturing its unique landscapes and hidden gems.</p>
+                <a href="https://www.picturetheworld.co/madeira-photo-tour" class="btn btn-primary mt-auto" target="_blank" rel="noopener noreferrer" data-translate="discover.learn-more">Learn More</a> </div>
             </div>
           </div>
 
@@ -261,9 +286,9 @@
                 <img src="./img/discover_madeira/boat_seayou_madeira.webp" class="card-img-top card-img-fixed-height" alt="Boat tour watching dolphins and whales off the coast of Madeira">
                 <img src="./img/logos/Seayou_logo.jpg" alt="Sea You Madeira Logo" class="card-img-overlay-logo rounded-circle">
               </div>
-              <div class="card-body d-flex flex-column"> <h5 class="card-title">Sea Tours</h5>
-                <p class="card-text">Witness marine life in their natural habitat, including dolphins and whales, aboard a comfortable boat tour.</p>
-                <a href="https://surfmadeira.seayou.pt/" class="btn btn-primary mt-auto" target="_blank" rel="noopener noreferrer">Learn More</a> </div>
+              <div class="card-body d-flex flex-column"> <h5 class="card-title" data-translate="discover.sea.title">Sea Tours</h5>
+                <p class="card-text" data-translate="discover.sea.description">Witness marine life in their natural habitat, including dolphins and whales, aboard a comfortable boat tour.</p>
+                <a href="https://surfmadeira.seayou.pt/" class="btn btn-primary mt-auto" target="_blank" rel="noopener noreferrer" data-translate="discover.learn-more">Learn More</a> </div>
             </div>
           </div>
 
@@ -273,37 +298,37 @@
 
     <section class="py-5 bg-light">
       <div class="container">
-        <h2 class="pb-2 border-bottom text-center mb-4">Our Trusted Partners</h2>
+        <h2 class="pb-2 border-bottom text-center mb-4" data-translate="discover.partners.title">Our Trusted Partners</h2>
 
-        <h3 class="mt-5 mb-3 text-center">Car Rental</h3>
+        <h3 class="mt-5 mb-3 text-center" data-translate="discover.car-rental.title">Car Rental</h3>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
           <div class="col">
             <div class="card h-100 shadow-sm text-center p-3 d-flex flex-column">
               <img src="./img/logos/ab4rent_logo.png" class="card-img-top-logo card-img-top mx-auto" alt="AB4 Rent Car Rental Logo">
-              <div class="card-body d-flex flex-column"> <h5 class="card-title">AB4 Rent</h5>
-                <p class="card-text">Reliable and affordable car rentals to explore the island at your pace with convenience and flexibility.</p>
-                <a href="https://www.ab4rent.com/en/" class="btn btn-outline-primary mt-auto" target="_blank" rel="noopener noreferrer">Visit Website</a> </div>
+              <div class="card-body d-flex flex-column"> <h5 class="card-title" data-translate="discover.ab4rent.title">AB4 Rent</h5>
+                <p class="card-text" data-translate="discover.ab4rent.description">Reliable and affordable car rentals to explore the island at your pace with convenience and flexibility.</p>
+                <a href="https://www.ab4rent.com/en/" class="btn btn-outline-primary mt-auto" target="_blank" rel="noopener noreferrer" data-translate="discover.visit-website">Visit Website</a> </div>
             </div>
           </div>
 
           <div class="col">
             <div class="card h-100 shadow-sm text-center p-3 d-flex flex-column">
               <img src="./img/logos/beyond_madeira_logo.png" class="card-img-top-logo card-img-top mx-auto" alt="AB4 Rent Car Rental Logo">
-              <div class="card-body d-flex flex-column"> <h5 class="card-title">Beyonde Madeira</h5>
-                <p class="card-text">Reliable and affordable car rentals to explore the island at your pace with convenience and flexibility.</p>
-                <a href="https://beyondmadeira.com/rent-car/" class="btn btn-outline-primary mt-auto" target="_blank" rel="noopener noreferrer">Visit Website</a> </div>
+              <div class="card-body d-flex flex-column"> <h5 class="card-title" data-translate="discover.beyond.title">Beyonde Madeira</h5>
+                <p class="card-text" data-translate="discover.beyond.description">Reliable and affordable car rentals to explore the island at your pace with convenience and flexibility.</p>
+                <a href="https://beyondmadeira.com/rent-car/" class="btn btn-outline-primary mt-auto" target="_blank" rel="noopener noreferrer" data-translate="discover.visit-website">Visit Website</a> </div>
             </div>
           </div>
           </div>
 
-        <h3 class="mt-5 mb-3 text-center">Accommodation</h3>
+        <h3 class="mt-5 mb-3 text-center" data-translate="discover.accommodation.title">Accommodation</h3>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
           <div class="col">
             <div class="card h-100 shadow-sm text-center p-3 d-flex flex-column">
               <img src="./img/logos/anislandapart_logo.png" class="card-img-top-logo card-img-top mx-auto" alt="An Island Apart property management logo">
-              <div class="card-body d-flex flex-column"> <h5 class="card-title">An Island Apart</h5>
-                <p class="card-text">A premier property management company offering a wide selection of quality accommodations across Madeira Island.</p>
-                <a href="https://www.anislandapart.com/" class="btn btn-outline-primary mt-auto" target="_blank" rel="noopener noreferrer">Book Now</a> </div>
+              <div class="card-body d-flex flex-column"> <h5 class="card-title" data-translate="discover.anislandapart.title">An Island Apart</h5>
+                <p class="card-text" data-translate="discover.anislandapart.description">A premier property management company offering a wide selection of quality accommodations across Madeira Island.</p>
+                <a href="https://www.anislandapart.com/" class="btn btn-outline-primary mt-auto" target="_blank" rel="noopener noreferrer" data-translate="discover.book-now">Book Now</a> </div>
             </div>
           </div>
           </div>
@@ -312,8 +337,8 @@
 
     <section class="py-5">
       <div class="container">
-        <h2 class="pb-2 border-bottom text-center mb-4">Local Tips & Recommendations Map</h2>
-        <p class="lead text-center mb-4">Discover our interactive map with handpicked recommendations from our local team—featuring the best restaurants, bars, ponchas, and nightclubs in Madeira. Let us know if you enjoy our picks! <a href="#tally-open=wQyZXg&tally-width=374&tally-emoji-text=👋&tally-emoji-animation=wave"style="font-weight: bold; color: black;">Review our Map here</a></p>
+        <h2 class="pb-2 border-bottom text-center mb-4" data-translate="discover.map.title">Local Tips & Recommendations Map</h2>
+        <p class="lead text-center mb-4" data-translate="discover.map.subtitle">Discover our interactive map with handpicked recommendations from our local team—featuring the best restaurants, bars, ponchas, and nightclubs in Madeira. Let us know if you enjoy our picks! <a href="#tally-open=wQyZXg&tally-width=374&tally-emoji-text=👋&tally-emoji-animation=wave" style="font-weight: bold; color: black;">Review our Map here</a></p>
         <div class="row g-4 justify-content-center">
           <div class="col-12">
             <div class="card h-100 shadow-sm">
@@ -326,30 +351,30 @@
           </div>
         </div>
 
-        <h3 class="mt-5 mb-3 border-bottom text-center">Other Activities & Hidden Gems <span class="badge-soon">Soon</span></h3>
+        <h3 class="mt-5 mb-3 border-bottom text-center" data-translate="discover.other.title">Other Activities & Hidden Gems <span class="badge-soon">Soon</span></h3>
         <div class="row g-4 justify-content-center">
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
                     <img src="./img/discover_madeira/traditional_madeira_houses_Santana.webp" class="card-img-top card-img-fixed-height" alt="Traditional triangular, thatched-roof houses of Santana, Madeira">
-                    <div class="card-body d-flex flex-column"> <h5 class="card-title">Typical Houses of Santana</h5>
-                        <p class="card-text">Discover the iconic triangular, thatched-roof houses, a unique symbol of Madeira's cultural heritage and architectural charm.</p>
-                        <a href="https://visitmadeira.com/en/where-to-go/madeira/north-coast/santana/casas-de-santana/" class="btn btn-secondary mt-auto" target="_blank" rel="noopener noreferrer">Explore</a> </div>
+                    <div class="card-body d-flex flex-column"> <h5 class="card-title" data-translate="discover.santana.title">Typical Houses of Santana</h5>
+                        <p class="card-text" data-translate="discover.santana.description">Discover the iconic triangular, thatched-roof houses, a unique symbol of Madeira's cultural heritage and architectural charm.</p>
+                        <a href="https://visitmadeira.com/en/where-to-go/madeira/north-coast/santana/casas-de-santana/" class="btn btn-secondary mt-auto" target="_blank" rel="noopener noreferrer" data-translate="discover.explore">Explore</a> </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
                     <img src="./img/discover_madeira/madeira_traditional_drink_poncha.webp" class="card-img-top card-img-fixed-height" alt="Glass of traditional Madeiran Poncha drink with lemon">
-                    <div class="card-body d-flex flex-column"> <h5 class="card-title">Mercado dos Lavradores (Farmers' Market)</h5>
-                        <p class="card-text">Immerse yourself in local colors, sounds, and flavors at Funchal's vibrant Farmers' Market. Don't miss trying the exotic fruits and local Poncha!</p>
-                        <a href="https://visitmadeira.com/en/what-to-do/culture-passionates/heritage/monuments-and-architecture/mercado-dos-lavradores/" class="btn btn-secondary mt-auto" target="_blank" rel="noopener noreferrer">Visit</a> </div>
+                    <div class="card-body d-flex flex-column"> <h5 class="card-title" data-translate="discover.market.title">Mercado dos Lavradores (Farmers' Market)</h5>
+                        <p class="card-text" data-translate="discover.market.description">Immerse yourself in local colors, sounds, and flavors at Funchal's vibrant Farmers' Market. Don't miss trying the exotic fruits and local Poncha!</p>
+                        <a href="https://visitmadeira.com/en/what-to-do/culture-passionates/heritage/monuments-and-architecture/mercado-dos-lavradores/" class="btn btn-secondary mt-auto" target="_blank" rel="noopener noreferrer" data-translate="discover.visit">Visit</a> </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
                     <img src="./img/discover_madeira/madeira_traditional_food_lapas.webp" class="card-img-top card-img-fixed-height" alt="Traditional Madeiran grilled limpets (Lapas) served with lemon">
-                    <div class="card-body d-flex flex-column"> <h5 class="card-title">Lapas (Traditional Madeiran Food)</h5>
-                        <p class="card-text">Lapas are grilled limpets, a popular Madeiran seafood delicacy served with garlic, butter, and lemon. Simple, fresh, and bursting with ocean flavor – a must-try local dish!</p>
-                        <a href="https://visitmadeira.com/en/where-to-go/madeira/north-coast/porto-moniz/porto-moniz-natural-swimming-pools/" class="btn btn-secondary mt-auto" target="_blank" rel="noopener noreferrer">Taste</a> </div>
+                    <div class="card-body d-flex flex-column"> <h5 class="card-title" data-translate="discover.lapas.title">Lapas (Traditional Madeiran Food)</h5>
+                        <p class="card-text" data-translate="discover.lapas.description">Lapas are grilled limpets, a popular Madeiran seafood delicacy served with garlic, butter, and lemon. Simple, fresh, and bursting with ocean flavor – a must-try local dish!</p>
+                        <a href="https://visitmadeira.com/en/where-to-go/madeira/north-coast/porto-moniz/porto-moniz-natural-swimming-pools/" class="btn btn-secondary mt-auto" target="_blank" rel="noopener noreferrer" data-translate="discover.taste">Taste</a> </div>
                 </div>
             </div>
         </div>
@@ -362,8 +387,8 @@
     <div class="container">
       <div class="row text-center text-md-start align-items-start">
         <div class="col-md-3 mb-4 mb-md-0">
-          <h3>Surf Clube da Madeira</h3>
-          <p>We have over 20 years of experience in teaching surf and we want to share this way of living with you, your family and friends!</p>
+          <h3 data-translate="footer.company-name">Surf Clube da Madeira</h3>
+          <p data-translate="footer.description">We have over 20 years of experience in teaching surf and we want to share this way of living with you, your family and friends!</p>
           <div class="footer-social mt-3">
             <a href="https://www.instagram.com/surfclubedamadeira/" target="_blank" rel="noopener noreferrer" class="me-2"><i class="bi bi-instagram"></i><span class="visually-hidden">Instagram</span></a>
             <a href="https://www.facebook.com/p/Surf-Clube-da-Madeira-100063827790722/" target="_blank" rel="noopener noreferrer" class="me-2"><i class="bi bi-facebook"></i><span class="visually-hidden">Facebook</span></a>
@@ -372,33 +397,33 @@
         </div>
 
         <div class="col-md-2 mb-4 mb-md-0">
-          <h3>Services</h3>
+          <h3 data-translate="footer.services">Services</h3>
           <ul class="list-unstyled">
-            <li><a href="lessons.html">Lessons</a></li>
-            <li><a href="discover_madeira.html">Discover Madeira</a></li>
-            <li><a href="lessons.html#ohana-surf-camp">Surf Camps</a></li>
+            <li><a href="lessons.html" data-translate="nav.lessons">Lessons</a></li>
+            <li><a href="discover_madeira.html" data-translate="nav.discover">Discover Madeira</a></li>
+            <li><a href="lessons.html#ohana-surf-camp" data-translate="footer.surf-camps">Surf Camps</a></li>
           </ul>
         </div>
 
         <div class="col-md-2 mb-4 mb-md-0">
-          <h3>Company</h3>
+          <h3 data-translate="footer.company">Company</h3>
           <ul class="list-unstyled">
-            <li><a href="about_us.html">About</a></li>
-            <li><a href="careers.html">Careers</a></li>
-            <li><a href="careers.html">Contact</a></li>
+            <li><a href="about_us.html" data-translate="nav.about">About</a></li>
+            <li><a href="careers.html" data-translate="nav.careers">Careers</a></li>
+            <li><a href="contact.html" data-translate="nav.contact">Contact</a></li>
           </ul>
         </div>
 
         <div class="col-md-2 mb-4 mb-md-0">
-          <h3>Legal</h3>
+          <h3 data-translate="footer.legal">Legal</h3>
           <ul class="list-unstyled">
-            <li><a href="https://drive.google.com/file/d/1PNuWIMNe7-9dlUKoEaC7u7DvNkcxEX7b/view?usp=sharing" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
-            <li><a href="https://drive.google.com/file/d/1YjUzVLjGI1S2TUgJB5jFKYN8I7fnmcfN/view?usp=sharing" target="_blank" rel="noopener noreferrer">Terms & Conditions</a></li>
+            <li><a href="https://drive.google.com/file/d/1PNuWIMNe7-9dlUKoEaC7u7DvNkcxEX7b/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-translate="footer.privacy">Privacy Policy</a></li>
+            <li><a href="https://drive.google.com/file/d/1YjUzVLjGI1S2TUgJB5jFKYN8I7fnmcfN/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-translate="footer.terms">Terms & Conditions</a></li>
           </ul>
         </div>
 
         <div class="col-md-3 mb-4 mb-md-0">
-          <h3>Contact Us</h3>
+          <h3 data-translate="footer.contact">Contact Us</h3>
           <ul class="list-unstyled">
             <li>
               <i class="bi bi-telephone-fill me-2"></i>
@@ -410,19 +435,20 @@
             </li>
             <li>
               <i class="bi bi-geo-alt-fill me-2"></i>
-              <span>Praia da Alagoa, Porto da Cruz, Madeira</span>
+              <span data-translate="contact.location.address">Praia da Alagoa, Porto da Cruz, Madeira</span>
             </li>
           </ul>
         </div>
       </div>
 
       <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between mt-5 pt-3 border-top">
-        <p class="mb-2 mb-md-0">© <span id="current-year"></span> Surf Clube da Madeira. All rights reserved.</p>
+        <p class="mb-2 mb-md-0" data-translate="footer.copyright">© <span id="current-year"></span> Surf Clube da Madeira. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <script src="./js/translations.js"></script>
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {

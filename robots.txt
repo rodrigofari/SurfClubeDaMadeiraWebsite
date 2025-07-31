@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /css/
+Disallow: /img/
+Allow: /
+
+Sitemap: https://rodrigofari.github.io/SurfClubeDaMadeiraWebsite/sitemap.xml 

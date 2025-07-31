@@ -114,16 +114,34 @@
       </div>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="index.html" class="nav-link px-2">Home</a></li>
-        <li><a href="lessons.html" class="nav-link px-2">Lessons</a></li>
-        <li><a href="discover_madeira.html" class="nav-link px-2">Discover Madeira</a></li>
-        <li><a href="index.html#FAQs" class="nav-link px-2">FAQs</a></li>
-        <li><a href="about_us.html" class="nav-link px-2">About Us</a></li>
-        <li><a href="careers.html" class="nav-link px-2 active">Careers</a></li>
-        <li><a href="contact.html" class="nav-link px-2">Contact</a></li>
+        <li><a href="index.html" class="nav-link px-2" data-translate="nav.home">Home</a></li>
+        <li><a href="lessons.html" class="nav-link px-2" data-translate="nav.lessons">Lessons</a></li>
+        <li><a href="discover_madeira.html" class="nav-link px-2" data-translate="nav.discover">Discover Madeira</a></li>
+        <li><a href="index.html#FAQs" class="nav-link px-2" data-translate="nav.faqs">FAQs</a></li>
+        <li><a href="about_us.html" class="nav-link px-2" data-translate="nav.about">About Us</a></li>
+        <li><a href="careers.html" class="nav-link px-2 active" data-translate="nav.careers">Careers</a></li>
+        <li><a href="contact.html" class="nav-link px-2" data-translate="nav.contact">Contact</a></li>
       </ul>
 
-      <div class="col-md-3 text-end">
+      <div class="col-md-3 text-end d-flex align-items-center justify-content-end">
+        <div class="dropdown me-3">
+          <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-translate"></i> EN
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+            <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="pl">Polski</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="it">Italiano</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="de">Deutsch</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="fr">Français</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="pt">Português</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="es">Español</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="uk">Українська</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="fi">Suomi</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="sv">Svenska</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="ru">Русский</a></li>
+          </ul>
+        </div>
         <style> /* Inline styles for the Bokun button as per your working homepage snippet */
           #bokun_771c5662_5648_44cb_b014_0e61061d172f { 
             display: inline-block; padding: 10px 20px; background: #65eade; border-radius: 5px; 
@@ -134,7 +152,7 @@
           #bokun_771c5662_5648_44cb_b014_0e61061d172f:hover{ background: #22e1d0; } 
           #bokun_771c5662_5648_44cb_b014_0e61061d172f:active{ background: #38e4d4; } 
         </style> 
-        <button class="bokunButton" id="bokun_771c5662_5648_44cb_b014_0e61061d172f" data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1" data-testid="widget-book-button"> Book now </button> 
+        <button class="bokunButton" id="bokun_771c5662_5648_44cb_b014_0e61061d172f" data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1" data-testid="widget-book-button" data-translate="nav.book"> Book now </button> 
       </div>
     </header>
   </div>
@@ -146,7 +164,26 @@
       <div class="d-flex align-items-center">
           <button type="button" class="bokunButton btn btn-sm text-white me-2" 
                   style="background-color: var(--nav-link-hover-color); border-color: var(--nav-link-hover-color);"
-                  data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1">Book now</button>
+                  data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1"
+                  data-translate="nav.book">Book now</button>
+          <div class="dropdown me-2">
+            <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="languageDropdownMobile" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-translate"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="languageDropdownMobile">
+              <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="pl">Polski</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="it">Italiano</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="de">Deutsch</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="fr">Français</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="pt">Português</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="es">Español</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="uk">Українська</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="fi">Suomi</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="sv">Svenska</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="ru">Русский</a></li>
+            </ul>
+          </div>
           <button class="navbar-toggler border-0 p-1" type="button" id="mobileMenuToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobileNavOverlay">
               <i class="bi bi-list" style="font-size: 1.75rem; color: var(--text-color);"></i>
           </button>
@@ -161,20 +198,20 @@
         </div>
         <nav class="flex-grow-1 d-flex flex-column" aria-label="Mobile navigation">
             <ul class="list-unstyled text-center my-auto">
-                <li class="mb-3"><a href="index.html" class="mobile-nav-link">Home</a></li>
-                <li class="mb-3"><a href="lessons.html" class="mobile-nav-link">Lessons</a></li>
-                <li class="mb-3"><a href="discover_madeira.html" class="mobile-nav-link">Discover Madeira</a></li>
-                <li class="mb-3"><a href="index.html#FAQs" class="mobile-nav-link">FAQs</a></li>
-                <li class="mb-3"><a href="about_us.html" class="mobile-nav-link">About Us</a></li>
-                <li class="mb-3"><a href="careers.html" class="mobile-nav-link active">Careers</a></li>
-                <li><a href="contact.html" class="mobile-nav-link">Contact</a></li> 
+                <li class="mb-3"><a href="index.html" class="mobile-nav-link" data-translate="nav.home">Home</a></li>
+                <li class="mb-3"><a href="lessons.html" class="mobile-nav-link" data-translate="nav.lessons">Lessons</a></li>
+                <li class="mb-3"><a href="discover_madeira.html" class="mobile-nav-link" data-translate="nav.discover">Discover Madeira</a></li>
+                <li class="mb-3"><a href="index.html#FAQs" class="mobile-nav-link" data-translate="nav.faqs">FAQs</a></li>
+                <li class="mb-3"><a href="about_us.html" class="mobile-nav-link" data-translate="nav.about">About Us</a></li>
+                <li class="mb-3"><a href="careers.html" class="mobile-nav-link active" data-translate="nav.careers">Careers</a></li>
+                <li><a href="contact.html" class="mobile-nav-link" data-translate="nav.contact">Contact</a></li> 
             </ul>
         </nav>
         <div class="py-3 text-center">
             <button type="button" class="bokunButton btn btn-lg w-100 text-white" 
                     style="background-color: var(--nav-link-hover-color); border-color: var(--nav-link-hover-color);"
                     data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1" 
-                    disabled>Book Now</button>
+                    data-translate="nav.book">Book Now</button>
         </div>
     </div>
   </div>
@@ -182,8 +219,8 @@
     <section class="bg-light p-4 p-md-5 rounded shadow-sm">
       <div class="row mb-4 text-center">
         <div class="col-lg-8 mx-auto">
-          <h1 class="display-5 fw-bold" style="color: var(--text-color);">Join Our Team at Surf Clube da Madeira</h1>
-          <p class="lead mt-3" style="color: var(--text-color-muted, #6c757d);">
+          <h1 class="display-5 fw-bold" style="color: var(--text-color);" data-translate="careers.title">Join Our Team at Surf Clube da Madeira</h1>
+          <p class="lead mt-3" style="color: var(--text-color-muted, #6c757d);" data-translate="careers.subtitle">
             We're passionate about surfing, the Madeiran lifestyle, and creating unforgettable experiences. If you share our vision and enthusiasm, explore rewarding career opportunities to grow with us and become part of the Surf Clube da Madeira family!
           </p>
         </div>
@@ -196,12 +233,12 @@
             <div class="card-body d-flex flex-column">
               <div class="d-flex align-items-center mb-3">
                 <i class="bi bi-tsunami me-2 career-card-icon"></i>
-                <h5 class="card-title mb-0">Surf Instructors</h5>
+                <h5 class="card-title mb-0" data-translate="careers.instructor.title">Surf Instructors</h5>
               </div>
-              <p class="card-text small text-secondary flex-grow-1">
+              <p class="card-text small text-secondary flex-grow-1" data-translate="careers.instructor.description">
                 Are you a certified and experienced surf instructor with a burning passion for teaching and the Madeiran waves? We invite you to join our dynamic team to share the thrill of surfing and guide our students as they conquer the Madeiran waves. We are seeking enthusiastic individuals who are deeply committed to safety, fun, and fostering a love for the ocean and surf culture.
               </p>
-              <a href="https://tally.so/r/nWdWXP" class="btn btn-primary mt-auto align-self-center" target="_blank" rel="noopener noreferrer">Apply Now for Surf Instructor Role</a>
+              <a href="https://tally.so/r/nWdWXP" class="btn btn-primary mt-auto align-self-center" target="_blank" rel="noopener noreferrer" data-translate="careers.apply-instructor">Apply Now for Surf Instructor Role</a>
             </div>
           </div>
         </div>
@@ -212,12 +249,12 @@
             <div class="card-body d-flex flex-column">
               <div class="d-flex align-items-center mb-3">
                 <i class="bi bi-mortarboard-fill me-2 career-card-icon"></i>
-                <h5 class="card-title mb-0">Surf Internship Program</h5>
+                <h5 class="card-title mb-0" data-translate="careers.internship.title">Surf Internship Program</h5>
               </div>
-              <p class="card-text small text-secondary flex-grow-1">
+              <p class="card-text small text-secondary flex-grow-1" data-translate="careers.internship.description">
                 Ready to dive into the surf industry? Our internship program offers a unique opportunity to kickstart your career. We have openings in marketing, operations, guest relations, and instruction support. Gain invaluable hands-on experience within a vibrant, fast-paced environment and learn directly from our passionate and dedicated team at Surf Clube da Madeira.
               </p>
-              <a href="https://tally.so/r/wLNzzJ" class="btn btn-primary mt-auto align-self-center" target="_blank" rel="noopener noreferrer">Apply for Internship</a>
+              <a href="https://tally.so/r/wLNzzJ" class="btn btn-primary mt-auto align-self-center" target="_blank" rel="noopener noreferrer" data-translate="careers.apply-internship">Apply for Internship</a>
             </div>
           </div>
         </div>
@@ -228,12 +265,12 @@
             <div class="card-body d-flex flex-column">
               <div class="d-flex align-items-center mb-3">
                 <i class="bi bi-envelope-paper-heart-fill me-2 career-card-icon"></i>
-                <h5 class="card-title mb-0">Spontaneous Application</h5>
+                <h5 class="card-title mb-0" data-translate="careers.spontaneous.title">Spontaneous Application</h5>
               </div>
-              <p class="card-text small text-secondary flex-grow-1">
+              <p class="card-text small text-secondary flex-grow-1" data-translate="careers.spontaneous.description">
                 Don't see a current opening that perfectly matches your unique skills and aspirations? We believe that talent finds its way. We are always eager to connect with passionate, proactive individuals. Feel free to send us your CV and a cover letter telling us why you'd be an amazing addition to the Surf Clube da Madeira family and how you can contribute to our mission in Madeira.
               </p>
-              <a href="mailto:your-email@example.com?subject=Spontaneous%20Application%20for%20Surf%20Clube%20da%20Madeira" class="btn btn-primary mt-auto align-self-center" target="_blank" rel="noopener noreferrer">Submit Your CV</a>
+              <a href="mailto:your-email@example.com?subject=Spontaneous%20Application%20for%20Surf%20Clube%20da%20Madeira" class="btn btn-primary mt-auto align-self-center" target="_blank" rel="noopener noreferrer" data-translate="careers.submit-cv">Submit Your CV</a>
             </div>
           </div>
         </div>
@@ -245,8 +282,8 @@
         <div class="container">
           <div class="row text-center text-md-start align-items-start">
             <div class="col-md-3 mb-4 mb-md-0">
-              <h3>Surf Clube da Madeira</h3>
-              <p>We have over 20 years of experience in teaching surf and we want to share this way of living with you, your family and friends!</p>
+              <h3 data-translate="footer.company-name">Surf Clube da Madeira</h3>
+              <p data-translate="footer.description">We have over 20 years of experience in teaching surf and we want to share this way of living with you, your family and friends!</p>
               <div class="footer-social mt-3">
                 <a href="https://www.instagram.com/surfclubedamadeira/" target="_blank" rel="noopener noreferrer" class="me-2"><i class="bi bi-instagram"></i></a>
                 <a href="https://www.facebook.com/p/Surf-Clube-da-Madeira-100063827790722/" target="_blank" rel="noopener noreferrer" class="me-2"><i class="bi bi-facebook"></i></a>
@@ -255,33 +292,33 @@
             </div>
     
             <div class="col-md-2 mb-4 mb-md-0">
-              <h3>Services</h3>
+              <h3 data-translate="footer.services">Services</h3>
               <ul class="list-unstyled">
-                <li><a href="lessons.html">Lessons</a></li>
-                <li><a href="discover_madeira.html">Discover Madeira</a></li>
-                <li><a href="lessons.html#ohana-surf-camp">Surf Camps</a></li>
+                <li><a href="lessons.html" data-translate="nav.lessons">Lessons</a></li>
+                <li><a href="discover_madeira.html" data-translate="nav.discover">Discover Madeira</a></li>
+                <li><a href="lessons.html#ohana-surf-camp" data-translate="footer.surf-camps">Surf Camps</a></li>
               </ul>
             </div>
     
             <div class="col-md-2 mb-4 mb-md-0">
-              <h3>Company</h3>
+              <h3 data-translate="footer.company">Company</h3>
               <ul class="list-unstyled">
-                <li><a href="about_us.html">About</a></li>
-                <li><a href="careers.html">Careers</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about_us.html" data-translate="nav.about">About</a></li>
+                <li><a href="careers.html" data-translate="nav.careers">Careers</a></li>
+                <li><a href="contact.html" data-translate="nav.contact">Contact</a></li>
               </ul>
             </div>
     
             <div class="col-md-2 mb-4 mb-md-0">
-              <h3>Legal</h3>
+              <h3 data-translate="footer.legal">Legal</h3>
               <ul class="list-unstyled">
-                <li><a href="https://drive.google.com/file/d/1PNuWIMNe7-9dlUKoEaC7u7DvNkcxEX7b/view?usp=sharing" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
-                <li><a href="https://drive.google.com/file/d/1YjUzVLjGI1S2TUgJB5jFKYN8I7fnmcfN/view?usp=sharing" target="_blank" rel="noopener noreferrer">Terms & Conditions</a></li>
+                <li><a href="https://drive.google.com/file/d/1PNuWIMNe7-9dlUKoEaC7u7DvNkcxEX7b/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-translate="footer.privacy">Privacy Policy</a></li>
+                <li><a href="https://drive.google.com/file/d/1YjUzVLjGI1S2TUgJB5jFKYN8I7fnmcfN/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-translate="footer.terms">Terms & Conditions</a></li>
               </ul>
             </div>
     
             <div class="col-md-3 mb-4 mb-md-0">
-              <h3>Contact Us</h3>
+              <h3 data-translate="footer.contact">Contact Us</h3>
               <ul class="list-unstyled">
                 <li>
                   <i class="bi bi-telephone-fill me-2"></i>
@@ -293,19 +330,20 @@
                 </li>
                 <li>
                   <i class="bi bi-geo-alt-fill me-2"></i>
-                  <span>Praia da Alagoa, Porto da Cruz, Madeira</span>
+                  <span data-translate="contact.location.address">Praia da Alagoa, Porto da Cruz, Madeira</span>
                 </li>
               </ul>
             </div>
           </div>
     
           <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between mt-5 pt-3 border-top">
-            <p class="mb-2 mb-md-0">© <span id="current-year"></span> Surf Clube da Madeira. All rights reserved.</p>
+            <p class="mb-2 mb-md-0" data-translate="footer.copyright">© <span id="current-year"></span> Surf Clube da Madeira. All rights reserved.</p>
           </div>
         </div>
       </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+      <script src="./js/translations.js?v=20250804"></script>
   
   <script>
     document.addEventListener('DOMContentLoaded', function() {

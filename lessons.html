@@ -369,27 +369,35 @@
       </div>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="index.html" class="nav-link px-2">Home</a></li>
-        <li><a href="lessons.html" class="nav-link px-2">Lessons</a></li>
-        <li><a href="discover_madeira.html" class="nav-link px-2">Discover Madeira</a></li>
-        <li><a href="index.html#FAQs" class="nav-link px-2">FAQs</a></li>
-        <li><a href="about_us.html" class="nav-link px-2">About Us</a></li>
-        <li><a href="careers.html" class="nav-link px-2">Careers</a></li>
-        <li><a href="contact.html" class="nav-link px-2">Contact</a></li>
+        <li><a href="index.html" class="nav-link px-2" data-translate="nav.home">Home</a></li>
+        <li><a href="lessons.html" class="nav-link px-2" data-translate="nav.lessons">Lessons</a></li>
+        <li><a href="discover_madeira.html" class="nav-link px-2" data-translate="nav.discover">Discover Madeira</a></li>
+        <li><a href="index.html#FAQs" class="nav-link px-2" data-translate="nav.faqs">FAQs</a></li>
+        <li><a href="about_us.html" class="nav-link px-2" data-translate="nav.about">About Us</a></li>
+        <li><a href="careers.html" class="nav-link px-2" data-translate="nav.careers">Careers</a></li>
+        <li><a href="contact.html" class="nav-link px-2" data-translate="nav.contact">Contact</a></li>
       </ul>
 
-      <div class="col-md-3 text-end">
-        <style> /* Inline styles for the Bokun button */
-          #bokun_771c5662_5648_44cb_b014_0e61061d172f {
-            display: inline-block; padding: 10px 20px; background: #65eade; border-radius: 5px;
-            box-shadow: 0 8px 12px rgba(0,0,0,0.19); font-weight: 600; font-size: 16px;
-            text-decoration: none; text-align: center; color: #FFFFFF; border:none; cursor: pointer;
-            transition: background .2s ease;
-          }
-          #bokun_771c5662_5648_44cb_b014_0e61061d172f:hover{ background: #22e1d0; }
-          #bokun_771c5662_5648_44cb_b014_0e61061d172f:active{ background: #38e4d4; }
-        </style>
-        <button class="bokunButton" id="bokun_771c5662_5648_44cb_b014_0e61061d172f" data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1"> Book now </button>
+      <div class="col-md-3 text-end d-flex align-items-center justify-content-end">
+        <div class="dropdown me-3">
+          <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-translate"></i> EN
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+            <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="pl">Polski</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="it">Italiano</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="de">Deutsch</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="fr">Français</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="pt">Português</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="es">Español</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="uk">Українська</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="fi">Suomi</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="sv">Svenska</a></li>
+            <li><a class="dropdown-item" href="#" data-lang="ru">Русский</a></li>
+          </ul>
+        </div>
+        <button class="bokunButton" id="bokun_771c5662_5648_44cb_b014_0e61061d172f" data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1" data-testid="widget-book-button" data-translate="nav.book"> Book now </button>
       </div>
     </header>
   </div>
@@ -402,7 +410,25 @@
           <button type="button" class="bokunButton btn btn-sm text-white me-2"
                   style="background-color: var(--nav-link-hover-color); border-color: var(--nav-link-hover-color);"
                   data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1"
-                  >Book now</button>
+                  data-translate="nav.book">Book now</button>
+          <div class="dropdown me-2">
+            <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="languageDropdownMobile" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-translate"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="languageDropdownMobile">
+              <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="pl">Polski</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="it">Italiano</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="de">Deutsch</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="fr">Français</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="pt">Português</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="es">Español</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="uk">Українська</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="fi">Suomi</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="sv">Svenska</a></li>
+              <li><a class="dropdown-item" href="#" data-lang="ru">Русский</a></li>
+            </ul>
+          </div>
           <button class="navbar-toggler border-0 p-1" type="button" id="mobileMenuToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobileNavOverlay">
               <i class="bi bi-list" style="font-size: 1.75rem; color: var(--text-color);"></i>
           </button>
@@ -417,26 +443,26 @@
         </div>
         <nav class="flex-grow-1 d-flex flex-column" aria-label="Mobile navigation">
             <ul class="list-unstyled text-center my-auto">
-                <li><a href="index.html" class="mobile-nav-link">Home</a></li>
-                <li><a href="lessons.html" class="mobile-nav-link">Lessons</a></li>
-                <li><a href="discover_madeira.html" class="mobile-nav-link">Discover Madeira</a></li>
-                <li><a href="index.html#FAQs" class="mobile-nav-link">FAQs</a></li>
-                <li><a href="about_us.html" class="mobile-nav-link">About Us</a></li>
-                <li><a href="careers.html" class="mobile-nav-link">Careers</a></li>
-                <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+                <li><a href="index.html" class="mobile-nav-link" data-translate="nav.home">Home</a></li>
+                <li><a href="lessons.html" class="mobile-nav-link" data-translate="nav.lessons">Lessons</a></li>
+                <li><a href="discover_madeira.html" class="mobile-nav-link" data-translate="nav.discover">Discover Madeira</a></li>
+                <li><a href="index.html#FAQs" class="mobile-nav-link" data-translate="nav.faqs">FAQs</a></li>
+                <li><a href="about_us.html" class="mobile-nav-link" data-translate="nav.about">About Us</a></li>
+                <li><a href="careers.html" class="mobile-nav-link" data-translate="nav.careers">Careers</a></li>
+                <li><a href="contact.html" class="mobile-nav-link" data-translate="nav.contact">Contact</a></li>
             </ul>
         </nav>
         <div class="py-3 text-center">
             <button type="button" class="bokunButton btn btn-lg w-100 text-white"
                     style="background-color: var(--nav-link-hover-color); border-color: var(--nav-link-hover-color);"
                     data-src="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/product-list/87014?partialView=1"
-                    >Book Now</button>
+                    data-translate="nav.book">Book Now</button>
         </div>
     </div>
   </div>
 
   <div class="container py-5">
-    <h1 class="text-center mb-5">Our Surf Lessons, Packages & Rentals in Madeira</h1>
+    <h1 class="text-center mb-5" data-translate="lessons.page.title">Our Surf Lessons, Packages & Rentals in Madeira</h1>
   </div>
 
   <div class="surf-container">
@@ -444,31 +470,31 @@
       <div class="surf-image-aspect"></div>
       <img src="./img/karoltraveler-11.webp" alt="Surf lesson with transport at Maiata Beach, Madeira" class="surf-image">
       <div class="surf-image-overlay"></div>
-      <div class="surf-image-text">Maiata Beach</div>
+      <div class="surf-image-text" data-translate="lessons.image.maiata-beach">Maiata Beach</div>
     </div>
     <div class="surf-text-container">
       <div class="surf-text-group">
-        <h3 class="surf-title">Surf Lesson with Transport</h3>
-        <p class="surf-description">Embark on your surf journey with ease! Our group lesson includes convenient pick-up from Funchal, transportation to the best surf spots, and all equipment. Perfect for beginners and intermediates.</p>
+        <h3 class="surf-title" data-translate="lessons.transport.title">Surf Lesson with Transport</h3>
+        <p class="surf-description" data-translate="lessons.transport.description">Embark on your surf journey with ease! Our group lesson includes convenient pick-up from Funchal, transportation to the best surf spots, and all equipment. Perfect for beginners and intermediates.</p>
       </div>
       <div class="surf-divider">
         <div class="surf-divider-line"></div>
       </div>
-      <h4 class="surf-divider">Surf Lesson Details</h4>
-      <p class="surf-highlights-description">Learn to surf in a fun and safe environment with our certified expert instructors. This comprehensive lesson covers theory, warm-up, safety, and 1.5 hours in the water. Get the full surf experience with a group of people, bring your friends, and also meet new ones!</p>
+      <h4 class="surf-divider" data-translate="lessons.details.title">Surf Lesson Details</h4>
+      <p class="surf-highlights-description" data-translate="lessons.details.description">Learn to surf in a fun and safe environment with our certified expert instructors. This comprehensive lesson covers theory, warm-up, safety, and 1.5 hours in the water. Get the full surf experience with a group of people, bring your friends, and also meet new ones!</p>
 
       <div class="surf-info-grid">
         <div class="surf-info-block">
           <h3 class="surf-info-value">~4h</h3>
-          <p class="surf-info-label">Total Duration</p>
+          <p class="surf-info-label" data-translate="lessons.info.total-duration">Total Duration</p>
         </div>
         <div class="surf-info-block">
           <h3 class="surf-info-value">8</h3>
-          <p class="surf-info-label">Max Participants</p>
+          <p class="surf-info-label" data-translate="lessons.info.max-participants">Max Participants</p>
         </div>
         <div class="surf-info-block">
-          <h3 class="surf-info-value">60€</h3>
-          <p class="surf-info-label">Price</p>
+          <h3 class="surf-info-value">65€</h3>
+          <p class="surf-info-label" data-translate="lessons.info.price">Price</p>
         </div>
       </div>
       <div class="surf-features-grid">
@@ -479,7 +505,7 @@
               <circle cx="12" cy="12" r="3"></circle>
             </svg>
           </div>
-          <span class="surf-feature-text">Amazing Views</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.amazing-views">Amazing Views</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -489,7 +515,7 @@
               <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">Perfect Waves</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.perfect-waves">Perfect Waves</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -498,7 +524,7 @@
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
           </div>
-          <span class="surf-feature-text">Pick up From Funchal</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.pickup-funchal">Pick up From Funchal</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -509,12 +535,12 @@
               <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">Expert Instructors</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.expert-instructors">Expert Instructors</span>
         </div>
       </div>
       <a class="surf-book-link" href="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/experience/980210" target="_blank" rel="noopener noreferrer">
         <button class="surf-book-button">
-          <span class="surf-button-text">Book Surf Lesson</span>
+          <span class="surf-button-text" data-translate="lessons.button.book-surf">Book Surf Lesson</span>
           <div class="surf-button-shine"></div>
         </button>
       </a>
@@ -526,31 +552,31 @@
       <div class="surf-image-aspect"></div>
       <img src="./img/portodacruz_jpeg.webp" alt="Surf lesson at Praia da Alagoa, Porto da Cruz, Madeira" class="surf-image">
       <div class="surf-image-overlay"></div>
-      <div class="surf-image-text">Praia da Alagoa</div>
+      <div class="surf-image-text" data-translate="lessons.image.praia-alagoa">Praia da Alagoa</div>
     </div>
     <div class="surf-text-container">
       <div class="surf-text-group">
-        <h3 class="surf-title">Surf Lesson without Transport</h3>
-        <p class="surf-description">Meet us directly at Praia da Alagoa in Porto da Cruz for your group surf lesson. This option provides flexibility, including all necessary equipment, and is ideal for those with their own transport.</p>
+        <h3 class="surf-title" data-translate="lessons.no-transport.title">Surf Lesson without Transport</h3>
+        <p class="surf-description" data-translate="lessons.no-transport.description">Meet us directly at Praia da Alagoa in Porto da Cruz for your group surf lesson. This option provides flexibility, including all necessary equipment, and is ideal for those with their own transport.</p>
       </div>
       <div class="surf-divider">
         <div class="surf-divider-line"></div>
       </div>
-      <h4 class="surf-divider">Surf Lesson Details</h4>
-      <p class="surf-highlights-description">Our standard surf lesson provides expert instruction in a fun and safe environment, covering fundamental techniques, warm-up, and beach safety before an hour and a half in the water. Enjoy a group setting, perfect for meeting new people and sharing the thrill of the waves!</p>
+      <h4 class="surf-divider" data-translate="lessons.details.title">Surf Lesson Details</h4>
+      <p class="surf-highlights-description" data-translate="lessons.details.description">Our standard surf lesson provides expert instruction in a fun and safe environment, covering fundamental techniques, warm-up, and beach safety before an hour and a half in the water. Enjoy a group setting, perfect for meeting new people and sharing the thrill of the waves!</p>
 
       <div class="surf-info-grid">
         <div class="surf-info-block">
           <h3 class="surf-info-value">~2.5h</h3>
-          <p class="surf-info-label">Total Duration</p>
+          <p class="surf-info-label" data-translate="lessons.info.total-duration">Total Duration</p>
         </div>
         <div class="surf-info-block">
           <h3 class="surf-info-value">8</h3>
-          <p class="surf-info-label">Max Participants</p>
+          <p class="surf-info-label" data-translate="lessons.info.max-participants">Max Participants</p>
         </div>
         <div class="surf-info-block">
-          <h3 class="surf-info-value">50€</h3>
-          <p class="surf-info-label">Price</p>
+          <h3 class="surf-info-value">55€</h3>
+          <p class="surf-info-label" data-translate="lessons.info.price">Price</p>
         </div>
       </div>
       <div class="surf-features-grid">
@@ -561,7 +587,7 @@
               <circle cx="12" cy="12" r="3"></circle>
             </svg>
           </div>
-          <span class="surf-feature-text">Amazing Views</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.amazing-views">Amazing Views</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -571,7 +597,7 @@
               <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">Perfect Waves</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.perfect-waves">Perfect Waves</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -580,7 +606,7 @@
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
           </div>
-          <span class="surf-feature-text">Great Location</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.great-location">Great Location</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -591,12 +617,12 @@
               <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">Expert Instructors</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.expert-instructors">Expert Instructors</span>
         </div>
       </div>
       <a class="surf-book-link" href="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/experience/986424" target="_blank" rel="noopener noreferrer">
         <button class="surf-book-button">
-          <span class="surf-button-text">Book Surf Lesson</span>
+          <span class="surf-button-text" data-translate="lessons.button.book-surf">Book Surf Lesson</span>
           <div class="surf-button-shine"></div>
         </button>
       </a>
@@ -608,31 +634,31 @@
       <div class="surf-image-aspect"></div>
       <img src="./img/2022_09_30_ohanasurfcamp3-120.webp" alt="Private surf lesson at Machico Beach, Madeira" class="surf-image">
       <div class="surf-image-overlay"></div>
-      <div class="surf-image-text">Machico Beach</div>
+      <div class="surf-image-text" data-translate="lessons.image.machico-beach">Machico Beach</div>
     </div>
     <div class="surf-text-container">
       <div class="surf-text-group">
-        <h3 class="surf-title">Private Surf Lesson</h3>
-        <p class="surf-description">Receive personalized attention and accelerated learning with a private 1:1 surf lesson in Madeira. Tailored to your skill level, whether you're a beginner or advanced, with certified instructors.</p>
+        <h3 class="surf-title" data-translate="lessons.private.title">Private Surf Lesson</h3>
+        <p class="surf-description" data-translate="lessons.private.description">Receive personalized attention and accelerated learning with a private 1:1 surf lesson in Madeira. Tailored to your skill level, whether you're a beginner or advanced, with certified instructors.</p>
       </div>
       <div class="surf-divider">
         <div class="surf-divider-line"></div>
       </div>
-      <h4 class="surf-divider">Surf Lesson Details</h4>
-      <p class="surf-highlights-description">Experience the thrill of riding the waves with a private surf lesson from Surf Clube da Madeira. Our dedicated 1:1 instruction ensures you receive personalized guidance to master the art of surfing. All necessary surf equipment is provided, and transportation can be arranged to the best spots.</p>
+      <h4 class="surf-divider" data-translate="lessons.details.title">Surf Lesson Details</h4>
+      <p class="surf-highlights-description" data-translate="lessons.details.description">Experience the thrill of riding the waves with a private surf lesson from Surf Clube da Madeira. Our dedicated 1:1 instruction ensures you receive personalized guidance to master the art of surfing. All necessary surf equipment is provided, and transportation can be arranged to the best spots.</p>
 
       <div class="surf-info-grid">
         <div class="surf-info-block">
           <h3 class="surf-info-value">~4h</h3>
-          <p class="surf-info-label">Duration with transport</p>
+          <p class="surf-info-label" data-translate="lessons.feature.duration-transport">Duration with transport</p>
         </div>
         <div class="surf-info-block">
           <h3 class="surf-info-value">1</h3>
-          <p class="surf-info-label">Max Participants</p>
+          <p class="surf-info-label" data-translate="lessons.info.max-participants">Max Participants</p>
         </div>
         <div class="surf-info-block">
           <h3 class="surf-info-value">150€</h3>
-          <p class="surf-info-label">Price</p>
+          <p class="surf-info-label" data-translate="lessons.info.price">Price</p>
         </div>
       </div>
       <div class="surf-features-grid">
@@ -643,7 +669,7 @@
               <circle cx="12" cy="12" r="3"></circle>
             </svg>
           </div>
-          <span class="surf-feature-text">Amazing Views</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.amazing-views">Amazing Views</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -653,7 +679,7 @@
               <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">Perfect Waves</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.perfect-waves">Perfect Waves</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -662,7 +688,7 @@
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
           </div>
-          <span class="surf-feature-text">Pick up From Funchal (Optional)</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.pickup-optional">Pick up From Funchal (Optional)</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -673,12 +699,12 @@
               <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">Expert Instructors</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.expert-instructors">Expert Instructors</span>
         </div>
       </div>
       <a class="surf-book-link" href="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/experience/987699" target="_blank" rel="noopener noreferrer">
         <button class="surf-book-button">
-          <span class="surf-button-text">Book Private Surf Lesson</span>
+          <span class="surf-button-text" data-translate="lessons.button.book-private">Book Private Surf Lesson</span>
           <div class="surf-button-shine"></div>
         </button>
       </a>
@@ -690,31 +716,31 @@
       <div class="surf-image-aspect"></div>
       <img src="./img/2022_09_30_ohanasurfcamp3-44.webp" alt="Surf package with 5 lessons at Praia da Alagoa" class="surf-image">
       <div class="surf-image-overlay"></div>
-      <div class="surf-image-text">Praia da Alagoa</div>
+      <div class="surf-image-text" data-translate="lessons.image.praia-alagoa">Praia da Alagoa</div>
     </div>
     <div class="surf-text-container">
       <div class="surf-text-group">
-        <h3 class="surf-title">Surf Package of 5 Lessons</h3>
-        <p class="surf-description">Deepen your surfing skills with our discounted package of 5 lessons. Designed for continuous progression, this package includes all equipment and optional transport to various surf spots.</p>
+        <h3 class="surf-title" data-translate="lessons.package.title">Surf Package of 5 Lessons</h3>
+        <p class="surf-description" data-translate="lessons.package.description">Deepen your surfing skills with our discounted package of 5 lessons. Designed for continuous progression, this package includes all equipment and optional transport to various surf spots.</p>
       </div>
       <div class="surf-divider">
         <div class="surf-divider-line"></div>
       </div>
-      <h4 class="surf-divider">Package Details</h4>
-      <p class="surf-highlights-description">Once you try surfing, you'll never want to stop! Get a pack of 5 lessons with a significant discount, allowing you to build consistency and confidence on the waves with our expert instructors. Each lesson includes full equipment and a focus on your individual progress.</p>
+      <h4 class="surf-divider" data-translate="lessons.package.details.title">Package Details</h4>
+      <p class="surf-highlights-description" data-translate="lessons.package.details.description">Once you try surfing, you'll never want to stop! Get a pack of 5 lessons with a significant discount, allowing you to build consistency and confidence on the waves with our expert instructors. Each lesson includes full equipment and a focus on your individual progress.</p>
 
       <div class="surf-info-grid">
         <div class="surf-info-block">
-          <h3 class="surf-info-value">~4h / lesson</h3>
-          <p class="surf-info-label">Duration with transport</p>
+          <h3 class="surf-info-value" data-translate="lessons.info.duration-per-lesson">~4h</h3>
+          <p class="surf-info-label" data-translate="lessons.feature.duration-transport">Duration with transport</p>
         </div>
         <div class="surf-info-block">
           <h3 class="surf-info-value">8</h3>
-          <p class="surf-info-label">Max Participants</p>
+          <p class="surf-info-label" data-translate="lessons.info.max-participants">Max Participants</p>
         </div>
         <div class="surf-info-block">
           <h3 class="surf-info-value">245€</h3>
-          <p class="surf-info-label">Price</p>
+          <p class="surf-info-label" data-translate="lessons.info.price">Price</p>
         </div>
       </div>
       <div class="surf-features-grid">
@@ -725,7 +751,7 @@
               <circle cx="12" cy="12" r="3"></circle>
             </svg>
           </div>
-          <span class="surf-feature-text">Amazing Views</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.amazing-views">Amazing Views</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -735,7 +761,7 @@
               <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">Perfect Waves</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.perfect-waves">Perfect Waves</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -744,7 +770,7 @@
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
           </div>
-          <span class="surf-feature-text">Pick up From Funchal (Optional)</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.pickup-optional">Pick up From Funchal (Optional)</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -755,12 +781,12 @@
               <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">Expert Instructors</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.expert-instructors">Expert Instructors</span>
         </div>
       </div>
       <a class="surf-book-link" href="https://widgets.bokun.io/online-sales/e0ccac86-bc58-4284-aba6-362a4e494143/experience/988748" target="_blank" rel="noopener noreferrer">
         <button class="surf-book-button">
-          <span class="surf-button-text">Book Surf Lesson</span>
+          <span class="surf-button-text" data-translate="lessons.button.book-surf">Book Surf Lesson</span>
           <div class="surf-button-shine"></div>
         </button>
       </a>
@@ -772,31 +798,31 @@
       <div class="surf-image-aspect"></div>
       <img src="./img/discover_madeira/ohanasurfcamp_surf_maiata.webp" alt="Surfboard and wetsuit rentals at Maiata Beach" class="surf-image">
       <div class="surf-image-overlay"></div>
-      <div class="surf-image-text">Maiata Beach</div>
+      <div class="surf-image-text" data-translate="lessons.image.maiata-beach">Maiata Beach</div>
     </div>
     <div class="surf-text-container">
       <div class="surf-text-group">
-        <h3 class="surf-title">Surf Equipment Rentals</h3>
-        <p class="surf-description">Rent high-quality surfboards and wetsuits to explore Madeira's waves independently. Ideal for experienced surfers who want the freedom to discover the best surf spots on their own.</p>
+        <h3 class="surf-title" data-translate="lessons.rentals.title">Surf Equipment Rentals</h3>
+        <p class="surf-description" data-translate="lessons.rentals.description">Rent high-quality surfboards and wetsuits to explore Madeira's waves independently. Ideal for experienced surfers who want the freedom to discover the best surf spots on their own.</p>
       </div>
       <div class="surf-divider">
         <div class="surf-divider-line"></div>
       </div>
-      <h4 class="surf-divider">Rental Details</h4>
-      <p class="surf-highlights-description">Experience the thrill of riding the waves by yourself! We provide a range of surfboards and wetsuits suitable for various conditions and skill levels. All gear is regularly maintained to ensure a safe and enjoyable experience.</p>
+      <h4 class="surf-divider" data-translate="lessons.rental.details.title">Rental Details</h4>
+      <p class="surf-highlights-description" data-translate="lessons.rental.details.description">Experience the thrill of riding the waves by yourself! We provide a range of surfboards and wetsuits suitable for various conditions and skill levels. All gear is regularly maintained to ensure a safe and enjoyable experience.</p>
 
       <div class="surf-info-grid">
         <div class="surf-info-block">
-          <h3 class="surf-info-value">1 day</h3>
-          <p class="surf-info-label">Rental Duration</p>
+          <h3 class="surf-info-value" data-translate="lessons.info.rental-duration-value">1 day</h3>
+          <p class="surf-info-label" data-translate="lessons.info.rental-duration">Rental Duration</p>
         </div>
         <div class="surf-info-block">
-          <h3 class="surf-info-value">All Gear</h3>
-          <p class="surf-info-label">Included</p>
+          <h3 class="surf-info-value" data-translate="lessons.info.included-value">All Gear</h3>
+          <p class="surf-info-label" data-translate="lessons.info.included">Included</p>
         </div>
         <div class="surf-info-block">
-          <h3 class="surf-info-value">From 30€</h3>
-          <p class="surf-info-label">Price</p>
+          <h3 class="surf-info-value" data-translate="lessons.info.price-value">From 30€</h3>
+          <p class="surf-info-label" data-translate="lessons.info.price">Price</p>
         </div>
       </div>
       <div class="surf-features-grid">
@@ -807,7 +833,7 @@
               <circle cx="12" cy="12" r="3"></circle>
             </svg>
           </div>
-          <span class="surf-feature-text">Amazing Views</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.amazing-views">Amazing Views</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -817,7 +843,7 @@
               <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">Perfect Waves</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.perfect-waves">Perfect Waves</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -826,7 +852,7 @@
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
           </div>
-          <span class="surf-feature-text">Rental for the day</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.rental-day">Rental for the day</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -837,12 +863,12 @@
               <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">High-Quality Equipment</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.high-quality-equipment">High-Quality Equipment</span>
         </div>
       </div>
       <a class="surf-book-link" href="https://wa.me/351963356674" target="_blank" rel="noopener noreferrer">
         <button class="surf-book-button">
-          <span class="surf-button-text">Book Your Rental via WhatsApp</span>
+          <span class="surf-button-text" data-translate="lessons.button.book-rental">Book Your Rental via WhatsApp</span>
           <div class="surf-button-shine"></div>
         </button>
       </a>
@@ -855,42 +881,42 @@
       <div class="surf-image-aspect"></div>
       <img src="./img/discover_madeira/ohanasurfcamp_teaching_the_surf_stance_Machico.webp" alt="Ohana Surf & Yoga Camp students learning surf stance on Machico beach" class="surf-image">
       <div class="surf-image-overlay"></div>
-      <div class="surf-image-text">Machico Beach</div>
+      <div class="surf-image-text" data-translate="lessons.image.machico-beach">Machico Beach</div>
     </div>
     <div class="surf-text-container">
       <div class="surf-text-group">
-        <h3 class="surf-title">Ohana Surf & Yoga Camp</h3>
-        <p class="surf-highlights-description">Lush green cliffs plunging into the ocean, countless palm trees and perfect waves make you feel like you’re on the other side of the world, yet you are still in Europe!
+        <h3 class="surf-title" data-translate="lessons.camp.title">Ohana Surf & Yoga Camp</h3>
+        <p class="surf-highlights-description" data-translate="lessons.camp.description">Lush green cliffs plunging into the ocean, countless palm trees and perfect waves make you feel like you're on the other side of the world, yet you are still in Europe!
 
-          Madeira’s mild climate all year around, great waves and dozens of breathtaking waterfalls and viewpoints make it a perfect Surf Camp destination.
+          Madeira's mild climate all year around, great waves and dozens of breathtaking waterfalls and viewpoints make it a perfect <b>Ohana Surf & Yoga Camp</b> destination.
 
-          At our camps, we focus on showing our guests the “real Madeira”—the local side of our island, including hidden spots you won’t easily find on Google Maps 😉</p>
+          At our camps, we focus on showing our guests the "real Madeira"—the local side of our island, including hidden spots you won't easily find on Google Maps 😉</p>
       </div>
       <div class="surf-divider">
         <div class="surf-divider-line"></div>
       </div>
-      <h4 class="surf-divider">Camp Details</h4>
-      <p class="surf-highlights-description">🌊 <b>Surfing Experience -></b>
+      <h4 class="surf-divider" data-translate="lessons.camp.details.title">Camp Details</h4>
+      <p class="surf-highlights-description" data-translate="lessons.camp.surfing">🌊 <b>Surfing Experience -></b>
         Participants receive over 12 hours of surf lessons from certified instructors from Surf Clube da Madeira. The camp caters to all skill levels, from beginners to intermediate surfers, with lessons conducted in English, Portuguese, Polish, and Spanish. Surf equipment, including boards, wetsuits, and leashes, is provided, along with sports health insurance.</p>
-      <p class="surf-highlights-description">🧘 <b>Yoga & Wellness -></b>
+      <p class="surf-highlights-description" data-translate="lessons.camp.yoga">🧘 <b>Yoga & Wellness -></b>
         Complementing the surfing sessions are three yoga classes designed to enhance flexibility, balance, and overall well-being. These sessions are tailored to support and improve surfing performance.</p>
-      <p class="surf-highlights-description">🏡 <b>Accommodation -></b>
+      <p class="surf-highlights-description" data-translate="lessons.camp.accommodation">🏡 <b>Accommodation -></b>
         Guests stay in a spacious villa located in Machico, known for its beautiful sandy beach. The villa features five bedrooms with two single beds each, three bathrooms, a fully equipped kitchen, a cozy living room, and a terrace offering stunning ocean and mountain views. Amenities include free Wi-Fi, towels, bed linen, a BBQ area, and free parking.</p>
-      <p class="surf-highlights-description">🤝 <b>Community & Support -></b>
+      <p class="surf-highlights-description" data-translate="lessons.camp.community">🤝 <b>Community & Support -></b>
         Ohana Surf Camp emphasizes a family-like atmosphere, encouraging solo travelers to join and connect with like-minded individuals. The camp is led by Magdalena, who has been living in Madeira for several years and works as a surf instructor at Surf Clube da Madeira. Her passion for surfing and the island led to the creation of Ohana Surf Camp, aiming to provide participants with an authentic local experience.</p>
 
       <div class="surf-info-grid">
         <div class="surf-info-block">
-          <h3 class="surf-info-value">7 day</h3>
-          <p class="surf-info-label">Duration</p>
+          <h3 class="surf-info-value" data-translate="lessons.info.duration-value">7 day</h3>
+          <p class="surf-info-label" data-translate="lessons.info.duration">Duration</p>
         </div>
         <div class="surf-info-block">
-          <h3 class="surf-info-value">All Gear</h3>
-          <p class="surf-info-label">Included</p>
+          <h3 class="surf-info-value" data-translate="lessons.info.included-value">All Gear</h3>
+          <p class="surf-info-label" data-translate="lessons.info.included">Included</p>
         </div>
         <div class="surf-info-block">
           <h3 class="surf-info-value">800€</h3>
-          <p class="surf-info-label">Price</p>
+          <p class="surf-info-label" data-translate="lessons.info.price">Price</p>
         </div>
       </div>
       <div class="surf-features-grid">
@@ -901,7 +927,7 @@
               <circle cx="12" cy="12" r="3"></circle>
             </svg>
           </div>
-          <span class="surf-feature-text">Breathtaking Views</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.breathtaking-views">Breathtaking Views</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -911,13 +937,13 @@
               <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">Perfect Waves</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.perfect-waves">Perfect Waves</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="surf-feature-icon lucide lucide-waves"><path d="m4.6 13.11 5.79-3.21c1.89-1.05 4.79 1.78 3.71 3.71l-3.22 5.81C8.8 23.16.79 15.23 4.6 13.11Z"/><path d="m10.5 9.5-1-2.29C9.2 6.48 8.8 6 8 6H4.5C2.79 6 2 6.5 2 8.5a7.71 7.71 0 0 0 2 4.83"/><path d="M8 6c0-1.55.24-4-2-4-2 0-2.5 2.17-2.5 4"/><path d="m14.5 13.5 2.29 1c.73.3 1.21.7 1.21 1.5v3.5c0 1.71-.5 2.5-2.5 2.5a7.71 7.71 0 0 1-4.83-2"/><path d="M18 16c1.55 0 4-.24 4 2 0 2-2.17 2.5-4 2.5"/></svg>
           </div>
-          <span class="surf-feature-text">Breakfast Included</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.breakfast-included">Breakfast Included</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -928,24 +954,24 @@
               <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">Expert Instructors</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.expert-instructors">Expert Instructors</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="surf-feature-icon lucide lucide-users"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
           </div>
-          <span class="surf-feature-text">Airport transfers & daily transport to surf spots</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.airport-transfers">Airport transfers & daily transport to surf spots</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="surf-feature-icon lucide lucide-users"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></svg>
           </div>
-          <span class="surf-feature-text">1-day Car Trip – exploring the Island</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.car-trip">1-day Car Trip – exploring the Island</span>
         </div>
       </div>
       <a class="surf-book-link" href="https://ohanasurfcamp.pl/surf-yoga-camp-madeira/" target="_blank" rel="noopener noreferrer">
         <button class="surf-book-button">
-          <span class="surf-button-text">Click to Know More Details</span>
+          <span class="surf-button-text" data-translate="lessons.button.know-more">Click to Know More Details</span>
           <div class="surf-button-shine"></div>
         </button>
       </a>
@@ -957,31 +983,31 @@
       <div class="surf-image-aspect"></div>
       <img src="./img/karoltraveler-7.jpg" alt="Team building surf lesson in Madeira" class="surf-image">
       <div class="surf-image-overlay"></div>
-      <div class="surf-image-text">Team Building in the Waves</div>
+      <div class="surf-image-text" data-translate="lessons.image.team-building">Team Building in the Waves</div>
     </div>
     <div class="surf-text-container">
       <div class="surf-text-group">
-        <h3 class="surf-title">Team Building Surf Lesson Package</h3>
-        <p class="surf-description">Enhance team cohesion and collaboration through an exciting surf experience! Designed for companies, this package uses surfing to promote communication, problem-solving, and morale among colleagues.</p>
+        <h3 class="surf-title" data-translate="lessons.team.title">Team Building Surf Lesson Package</h3>
+        <p class="surf-description" data-translate="lessons.team.description">Enhance team cohesion and collaboration through an exciting surf experience! Designed for companies, this package uses surfing to promote communication, problem-solving, and morale among colleagues.</p>
       </div>
       <div class="surf-divider">
         <div class="surf-divider-line"></div>
       </div>
-      <h4 class="surf-divider">Package Details</h4>
-      <p class="surf-highlights-description">Our specialized team-building surf lessons are crafted to bring your corporate team closer through the thrill of surfing. Beyond just catching waves, participants will engage in collaborative challenges, build trust, and develop communication skills in a unique and memorable ocean environment. We provide all necessary surf equipment, and transport options can be arranged to suit your company's needs. The total duration is around 4 hours if transport is required, or 2.5 hours if you prefer to meet us directly at the beach.</p>
+      <h4 class="surf-divider" data-translate="lessons.team.details.title">Package Details</h4>
+      <p class="surf-highlights-description" data-translate="lessons.team.details.description">Our specialized team-building surf lessons are crafted to bring your corporate team closer through the thrill of surfing. Beyond just catching waves, participants will engage in collaborative challenges, build trust, and develop communication skills in a unique and memorable ocean environment. We provide all necessary surf equipment, and transport options can be arranged to suit your company's needs. The total duration is around 4 hours if transport is required, or 2.5 hours if you prefer to meet us directly at the beach.</p>
 
       <div class="surf-info-grid">
         <div class="surf-info-block">
           <h3 class="surf-info-value">~2.5-4h</h3>
-          <p class="surf-info-label">Total Duration</p>
+          <p class="surf-info-label" data-translate="lessons.info.total-duration">Total Duration</p>
         </div>
         <div class="surf-info-block">
-          <h3 class="surf-info-value">Flexible</h3>
-          <p class="surf-info-label">Participants</p>
+          <h3 class="surf-info-value" data-translate="lessons.info.flexible">Flexible</h3>
+          <p class="surf-info-label" data-translate="lessons.info.participants">Participants</p>
         </div>
         <div class="surf-info-block">
-          <h3 class="surf-info-value">Quote</h3>
-          <p class="surf-info-label">Price</p>
+          <h3 class="surf-info-value" data-translate="lessons.info.quote">Quote</h3>
+          <p class="surf-info-label" data-translate="lessons.info.quote">Price</p>
         </div>
       </div>
       <div class="surf-features-grid">
@@ -992,7 +1018,7 @@
               <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
             </svg>
           </div>
-          <span class="surf-feature-text">Corporate Focused</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.corporate-focused">Corporate Focused</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -1003,7 +1029,7 @@
               <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">Team Collaboration</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.team-collaboration">Team Collaboration</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -1013,7 +1039,7 @@
               <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
             </svg>
           </div>
-          <span class="surf-feature-text">Fun Ocean Experience</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.fun-ocean-experience">Fun Ocean Experience</span>
         </div>
         <div class="surf-feature">
           <div class="surf-feature-icon-container">
@@ -1022,12 +1048,12 @@
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
           </div>
-          <span class="surf-feature-text">Transport Available</span>
+          <span class="surf-feature-text" data-translate="lessons.feature.transport-available">Transport Available</span>
         </div>
       </div>
       <a class="surf-book-link" href="mailto:surfclubedamadeira@gmail.com?subject=Inquiry%20about%20Team%20Building%20Surf%20Lesson">
         <button class="surf-book-button">
-          <span class="surf-button-text">Send Us an Email to Talk</span>
+          <span class="surf-button-text" data-translate="lessons.button.send-email">Send Us an Email to Talk</span>
           <div class="surf-button-shine"></div>
         </button>
       </a>
@@ -1039,8 +1065,8 @@
     <div class="container">
       <div class="row text-center text-md-start align-items-start">
         <div class="col-md-3 mb-4 mb-md-0">
-          <h3>Surf Clube da Madeira</h3>
-          <p>We have over 20 years of experience in teaching surf and we want to share this way of living with you, your family and friends!</p>
+          <h3 data-translate="footer.company-name">Surf Clube da Madeira</h3>
+          <p data-translate="footer.description">We have over 20 years of experience in teaching surf and we want to share this way of living with you, your family and friends!</p>
           <div class="footer-social mt-3">
             <a href="https://www.instagram.com/surfclubedamadeira/" target="_blank" rel="noopener noreferrer" class="me-2"><i class="bi bi-instagram"></i><span class="visually-hidden">Instagram</span></a>
             <a href="https://www.facebook.com/p/Surf-Clube-da-Madeira-100063827790722/" target="_blank" rel="noopener noreferrer" class="me-2"><i class="bi bi-facebook"></i><span class="visually-hidden">Facebook</span></a>
@@ -1049,33 +1075,33 @@
         </div>
 
         <div class="col-md-2 mb-4 mb-md-0">
-          <h3>Services</h3>
+          <h3 data-translate="footer.services">Services</h3>
           <ul class="list-unstyled">
-            <li><a href="lessons.html">Lessons</a></li>
-            <li><a href="discover_madeira.html">Discover Madeira</a></li>
-            <li><a href="lessons.html#ohana-surf-camp">Surf Camps</a></li>
+            <li><a href="lessons.html" data-translate="nav.lessons">Lessons</a></li>
+            <li><a href="discover_madeira.html" data-translate="nav.discover">Discover Madeira</a></li>
+            <li><a href="lessons.html#ohana-surf-camp" data-translate="footer.surf-camps">Surf Camps</a></li>
           </ul>
         </div>
 
         <div class="col-md-2 mb-4 mb-md-0">
-          <h3>Company</h3>
+          <h3 data-translate="footer.company">Company</h3>
           <ul class="list-unstyled">
-            <li><a href="about_us.html">About</a></li>
-            <li><a href="careers.html">Careers</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about_us.html" data-translate="nav.about">About</a></li>
+            <li><a href="careers.html" data-translate="nav.careers">Careers</a></li>
+            <li><a href="contact.html" data-translate="nav.contact">Contact</a></li>
           </ul>
         </div>
 
         <div class="col-md-2 mb-4 mb-md-0">
-          <h3>Legal</h3>
+          <h3 data-translate="footer.legal">Legal</h3>
           <ul class="list-unstyled">
-            <li><a href="https://drive.google.com/file/d/1PNuWIMNe7-9dlUKoEaC7u7DvNkcxEX7b/view?usp=sharing" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
-            <li><a href="https://drive.google.com/file/d/1YjUzVLjGI1S2TUgJB5jFKYN8I7fnmcfN/view?usp=sharing" target="_blank" rel="noopener noreferrer">Terms & Conditions</a></li>
+            <li><a href="https://drive.google.com/file/d/1PNuWIMNe7-9dlUKoEaC7u7DvNkcxEX7b/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-translate="footer.privacy">Privacy Policy</a></li>
+            <li><a href="https://drive.google.com/file/d/1YjUzVLjGI1S2TUgJB5jFKYN8I7fnmcfN/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-translate="footer.terms">Terms & Conditions</a></li>
           </ul>
         </div>
 
         <div class="col-md-3 mb-4 mb-md-0">
-          <h3>Contact Us</h3>
+          <h3 data-translate="footer.contact">Contact Us</h3>
           <ul class="list-unstyled">
             <li>
               <i class="bi bi-telephone-fill me-2"></i>
@@ -1087,19 +1113,21 @@
             </li>
             <li>
               <i class="bi bi-geo-alt-fill me-2"></i>
-              <span>Praia da Alagoa, Porto da Cruz, Madeira</span>
+              <span data-translate="contact.location.address">Praia da Alagoa, Porto da Cruz, Madeira</span>
             </li>
           </ul>
         </div>
       </div>
 
       <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between mt-5 pt-3 border-top">
-        <p class="mb-2 mb-md-0">© <span id="current-year"></span> Surf Clube da Madeira. All rights reserved.</p>
+        <p class="mb-2 mb-md-0" data-translate="footer.copyright">© <span id="current-year"></span> Surf Clube da Madeira. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+      <script src="./js/translations.js?v=20250804"></script>
+  
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       // Update current year in footer
