@@ -1131,7 +1131,10 @@
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       // Update current year in footer
-      document.getElementById('current-year').textContent = new Date().getFullYear();
+      const currentYearElement = document.getElementById('current-year');
+      if (currentYearElement) {
+          currentYearElement.textContent = new Date().getFullYear();
+      }
 
       // Set active class for navigation link (adjusted for lessons.html)
       const currentPathname = window.location.pathname.split('/').pop() || 'index.html';
@@ -1172,6 +1175,12 @@
       const mobileNavOverlay = document.getElementById('mobileNavOverlay');
       const body = document.body;
 
+      console.log('Mobile menu elements found:', {
+          toggle: !!mobileMenuToggle,
+          overlay: !!mobileNavOverlay,
+          close: !!mobileMenuClose
+      });
+
       if (!mobileMenuToggle) console.error('Mobile Menu Toggle button (mobileMenuToggle) not found.');
       if (!mobileNavOverlay) console.error('Mobile Navigation Overlay (mobileNavOverlay) not found.');
       if (!mobileMenuClose) console.error('Mobile Menu Close button (mobileMenuClose) not found.');
@@ -1196,12 +1205,19 @@
       };
 
       if (mobileMenuToggle && mobileNavOverlay && mobileMenuClose && body) {
-          mobileMenuToggle.addEventListener('click', function() {
+          mobileMenuToggle.addEventListener('click', function(e) {
+              e.preventDefault();
+              e.stopPropagation();
+              console.log('Mobile menu toggle clicked');
+              
+              // Force remove d-none and add active
               mobileNavOverlay.classList.remove('d-none');
-              void mobileNavOverlay.offsetWidth;
+              mobileNavOverlay.style.display = 'flex';
+              void mobileNavOverlay.offsetWidth; // Force reflow
               mobileNavOverlay.classList.add('active');
               body.style.overflow = 'hidden';
               this.setAttribute('aria-expanded', 'true');
+              console.log('Mobile menu should be open now');
           });
           mobileMenuClose.addEventListener('click', closeMobileMenu);
           if (mobileNavOverlay) {
@@ -1221,6 +1237,13 @@
               }
           }
       });
+
+      // Fallback: Ensure mobile menu works on touch devices
+      if (mobileMenuToggle) {
+          mobileMenuToggle.addEventListener('touchstart', function(e) {
+              console.log('Mobile menu touch event detected');
+          });
+      }
     });
   </script>
 </body>
