@@ -242,12 +242,7 @@ body {
 /* ========================
    MEDIA QUERIES
 ======================== */
-@media (max-width: 768px) {
-  .whatsapp-btn {
-    padding: 0.7em;
-    border-radius: 50%;
-  }
-}
+
 
 /*----------------------------------------------CSS FOR THE SERVICES PAGE------------------------------------------------------------------------*/
 
@@ -1701,15 +1696,30 @@ footer ul li a:focus::after {
 .whatsapp-btn {
   background-color: var(--whatsapp-bg);
   color: white;
-  padding: var(--card-padding);
-  border-radius: 2em;
+  padding: 0.7em;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
   text-decoration: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
+  justify-content: center;
   transition: all var(--transition-fast);
-  font-size: clamp(14px, 2vw, 16px);
   min-height: 44px; /* Touch target size */
+}
+
+/* Larger size for desktop screens */
+@media (min-width: 992px) {
+  .whatsapp-btn {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .whatsapp-btn img {
+    width: 28px;
+    height: 28px;
+  }
 }
 
 .whatsapp-btn:hover {
@@ -1722,23 +1732,21 @@ footer ul li a:focus::after {
   outline-offset: 2px;
 }
 
-/* WhatsApp button responsive adjustments */
-@media (max-width: 767.98px) {
-  .whatsapp-btn {
-    padding: 0.7em;
-    border-radius: 50%;
-    width: 56px;
-    height: 56px;
-    justify-content: center;
-  }
-  
-  .whatsapp-btn span {
-    display: none;
-  }
-  
-  .whatsapp-btn img {
-    margin-right: 0;
-  }
+/* WhatsApp button - consistent circular design across all devices */
+.whatsapp-btn span {
+  display: none; /* Hide text on all devices */
+}
+
+.whatsapp-btn img {
+  margin: 0; /* Remove all margins */
+  width: 24px;
+  height: 24px;
+  display: block; /* Ensure proper centering */
+}
+
+/* Hide the text span on all devices */
+.whatsapp-btn span {
+  display: none !important;
 }
 
 /* Custom styling for carousel images */
