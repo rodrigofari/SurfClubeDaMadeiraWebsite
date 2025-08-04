@@ -1178,6 +1178,311 @@ const translations = {
     "lessons.feature.duration-per-lesson": "Durée par cours",
   },
   
+  nl: {
+    // Navigation
+    "nav.home": "Home",
+    "nav.lessons": "Lessen", 
+    "nav.discover": "Madeira Ontdekken",
+    "nav.faqs": "FAQ",
+    "nav.about": "Over Ons",
+    "nav.careers": "Carrières",
+    "nav.contact": "Contact",
+    "nav.book": "Nu boeken",
+    
+    // Hero Section
+    "hero.title": "Surflessen in Madeira: Welkom bij Surf Clube da Madeira!",
+    "hero.subtitle": "Ervaar de spanning van surfen in de prachtige wateren van Madeira Eiland",
+    
+    // Services
+    "services.title": "Onze Diensten",
+    "service.transport": "Surfles met vervoer",
+    "service.no-transport": "Surfles zonder vervoer", 
+    "service.private": "Privé Surfles",
+    "service.package": "Pakket van 5 surflessen",
+    "service.equipment": "Surfuitrusting Verhuur",
+    "service.rentals": "Verhuur",
+    "service.camp": "Ohana Surf & Yoga Kampen",
+    "service.camp.more-info": "Klik hier voor meer informatie",
+    "service.price": "Prijs",
+    "service.price-from": "Vanaf",
+    
+    // Plan of our Surf Lesson
+    "plan.title": "Plan van onze Surfles",
+    "plan.arrival": "Aankomst",
+    "plan.arrival-description": "Als je een plaats hebt geboekt halen we je op in Santa Luzia Park in Funchal. Als je geen vervoer hebt geboekt kun je ons ontmoeten op Alagoa Beach in Porto da Cruz.",
+    "plan.before-lesson": "Voor de Surfles",
+    "plan.before-lesson-description": "Eerst beginnen we met het geven van de juiste surfuitrusting :) Daarna, na het omkleden in wetsuits, beginnen we de warming-up, leren we je de techniek van \"pop up\" en leggen we de veiligheidsregels en regels van het strand uit waar we gaan surfen.",
+    "plan.surf-lesson": "Surfles",
+    "plan.surf-lesson-description": "Na de warming-up, techniek en veiligheidsbriefing nemen we je direct mee naar de oceaan waar onze instructeurs je 1,5 uur lang helpen om zoveel mogelijk golven te vangen!",
+    
+    // FAQs
+    "faq.title": "Veelgestelde Vragen",
+    "faq.subtitle": "Veel voorkomende vragen over onze lessen in Madeira.",
+    "faq.pickup.question": "Waar is de ophaallocatie?",
+    "faq.pickup.answer": "De ophaallocatie is in Jardim de Santa Luzia in Funchal -> <a href=\"https://www.google.pt/maps/place/32%C2%B039'12.6%22N+16%C2%B054'42.6%22W/@32.653497,-16.911831,969m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d32.653497!4d-16.911831?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" rel=\"noopener noreferrer\">Google locatie link</a>.",
+    "faq.bitcoin.question": "Hoe betaal ik met Bitcoin?",
+    "faq.bitcoin.answer": "Voor Bitcoin betalingen, neem contact met ons op via WhatsApp op <a href=\"https://wa.me/351963356674\" target=\"_blank\" rel=\"noopener noreferrer\">+351 963 356 674</a> om de betaling te regelen.",
+    "faq.what-to-bring.question": "Wat moet ik meenemen naar de les?",
+    "faq.what-to-bring.answer": "Alles wat je nodig hebt is zonnebrandcrème, een set kleding om te verschonen, een badpak, water en een goede houding 😊.",
+    "faq.camp.question": "Hebben jullie Surf & Yoga Kampen?",
+    "faq.camp.answer": "Ja! 😊 <a href=\"https://ohanasurfcamp.pl/surf-yoga-camp-madeira/\" target=\"_blank\" rel=\"noopener noreferrer\">meer informatie over Ohana Surf & Yoga Kamp hier</a>",
+    
+    // Payment Methods
+    "payment.title": "Betaalmethoden",
+    
+    // Reviews/Testimonials
+    "reviews.title": "Wat Onze Klanten Zeggen",
+    "reviews.subtitle": "Hoor direct van degenen die de golven hebben ervaren met Surf Clube da Madeira! <a href=\"https://g.co/kgs/k68fkUh\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"font-weight: bold; color: black;\">Lees meer hier</a>",
+    "reviews.read-more": "Lees meer hier",
+    
+    // Gallery
+    "gallery.title": "Galerij",
+    "gallery.catch-wave.title": "Vang de golf!",
+    "gallery.catch-wave.description": "Ervaar de spanning van surfen in de prachtige wateren van Madeira.",
+    "gallery.learn-best.title": "Leer van de besten",
+    "gallery.learn-best.description": "Onze ervaren instructeurs begeleiden je elke stap van de weg.",
+    "gallery.stunning-scenery.title": "Adembenemende Scenerie",
+    "gallery.stunning-scenery.description": "Surf tegen de achtergrond van Madeira's adembenemende landschappen.",
+    "gallery.more-than-surfing.title": "Meer dan alleen surfen",
+    "gallery.more-than-surfing.description": "Geniet van de zon, het zand en goede vibes na je les.",
+    "gallery.fun-all-ages.title": "Plezier voor alle leeftijden",
+    "gallery.fun-all-ages.description": "Kinderen en volwassenen kunnen genieten van de spanning van de oceaan.",
+    
+    // Footer
+    "footer.company-name": "Surf Clube da Madeira",
+    "footer.description": "We hebben meer dan 20 jaar ervaring in het lesgeven van surfen en we willen deze levensstijl delen met jou, je familie en vrienden op het prachtige Madeira Eiland!",
+    "footer.services": "Diensten",
+    "footer.company": "Bedrijf",
+    "footer.legal": "Juridisch",
+    "footer.contact": "Contacteer Ons",
+    "footer.surf-camps": "Surfkampen",
+    "footer.privacy": "Privacybeleid",
+    "footer.terms": "Algemene Voorwaarden",
+    "footer.copyright": "© Surf Clube da Madeira. Alle rechten voorbehouden.",
+    
+    // 404 Page
+    "404.title": "Pagina Niet Gevonden",
+    "404.subtitle": "De pagina die je zoekt bestaat niet.",
+    "404.description": "Het lijkt erop dat je een verkeerde afslag hebt genomen. Maak je geen zorgen, het overkomt de besten van ons!",
+    "404.go-home": "Ga naar Homepage",
+    "404.explore-lessons": "Verken Lessen",
+    "404.contact-text": "Als je denkt dat dit een fout is, neem dan",
+    "404.contact-us": "contact met ons op",
+    
+    // Contact
+    "contact.location.address": "Praia da Alagoa, Porto da Cruz, Madeira",
+    
+    // Lessons Page
+    "lessons.info.price-value": "Vanaf 30€",
+    "lessons.info.price": "Prijs",
+    "lessons.info.flexible": "Flexibel",
+    "lessons.info.participants": "Deelnemers",
+    "lessons.info.duration": "Duur",
+    "lessons.info.duration-value": "7 dagen",
+    "lessons.info.included": "Inbegrepen",
+    "lessons.info.included-value": "Alle uitrusting",
+    "lessons.info.quote": "Offerte",
+    "lessons.info.rental-duration": "Verhuurduur",
+    "lessons.info.rental-duration-value": "1 dag",
+    "lessons.info.duration-per-lesson": "~4h",
+    "lessons.feature.duration-transport": "Duur met vervoer",
+    "lessons.feature.duration-per-lesson": "Duur per les",
+    
+    // Features
+    "lessons.feature.amazing-views": "Adembenemende uitzichten",
+    "lessons.feature.perfect-waves": "Perfecte golven",
+    "lessons.feature.pickup-funchal": "Ophaal van Funchal",
+    "lessons.feature.pickup-optional": "Ophaal van Funchal (Optioneel)",
+    "lessons.feature.pickup-optional-german": "Ophaal van Funchal (Optioneel)",
+    "lessons.feature.great-location": "Uitstekende locatie",
+    "lessons.feature.expert-instructors": "Expert instructeurs",
+    "lessons.feature.corporate-focused": "Bedrijfsgericht",
+    "lessons.feature.fun-ocean-experience": "Leuke oceaanervaring",
+    "lessons.feature.team-collaboration": "Team samenwerking",
+    "lessons.feature.transport-available": "Vervoer beschikbaar",
+    "lessons.feature.rental-day": "Verhuur per dag",
+    "lessons.feature.high-quality-equipment": "Hoogwaardige uitrusting",
+    "lessons.feature.breathtaking-views": "Adembenemende uitzichten",
+    "lessons.feature.breakfast-included": "Ontbijt inbegrepen",
+    "lessons.feature.airport-transfers": "Luchthaven transfers en dagelijks vervoer naar surfspots",
+    "lessons.feature.car-trip": "1-daagse autorit - eiland verkennen",
+    
+    // Buttons
+    "lessons.button.book-surf": "Boek surfles",
+    "lessons.button.book-private": "Boek privé surfles",
+    "lessons.button.book-rental": "Boek je verhuur via WhatsApp",
+    "lessons.button.know-more": "Klik om meer details te weten",
+    "lessons.button.send-email": "Stuur ons een email om te praten",
+    
+    // Team Building
+    "lessons.team-building.button": "Stuur ons een email om te praten",
+    
+    // Team Building Service (HTML keys)
+    "lessons.team.title": "Team Building Surfles Pakket",
+    "lessons.team.description": "Verbeter teamcohesie en samenwerking door een spannende surfervaring! Ontworpen voor bedrijven, gebruikt dit pakket surfen om communicatie, probleemoplossing en moraal tussen collega's te bevorderen.",
+    "lessons.team.details.title": "Pakket Details",
+    "lessons.team.details.description": "Onze gespecialiseerde team building surflessen zijn ontworpen om je bedrijfsteam dichter bij elkaar te brengen door de spanning van surfen. Naast surfen zullen deelnemers betrokken raken bij collaboratieve uitdagingen, vertrouwen opbouwen en communicatievaardigheden ontwikkelen in een unieke en onvergetelijke oceaanomgeving. We voorzien in alle benodigde surfuitrusting en vervoersopties kunnen worden geregeld om aan te passen aan de behoeften van je bedrijf. De totale duur is ongeveer 4 uur als vervoer nodig is, of 2,5 uur als je liever direct op het strand met ons afspreekt.",
+    "lessons.image.team-building": "Team Building in de golven",
+    
+    // Team Building specific keys (to fix Italian text)
+    "lessons.team.flexible": "Flexibel",
+    "lessons.team.quote": "Prijs op aanvraag",
+    "lessons.team.participants": "Deelnemers",
+    "lessons.team.corporate-focused": "Bedrijfsgericht",
+    "lessons.team.fun-ocean-experience": "Leuke oceaanervaring",
+    "lessons.team.team-collaboration": "Team samenwerking",
+    "lessons.team.transport-available": "Vervoer beschikbaar",
+    
+    // Careers Page
+    "careers.title": "Sluit je aan bij ons team bij Surf Clube da Madeira",
+    "careers.subtitle": "Ontdek spannende carrièremogelijkheden in de wereld van surfen op het prachtige eiland Madeira. Sluit je aan bij ons dynamische team en help ons de passie voor surfen te delen met gasten van over de hele wereld.",
+    "careers.instructor.title": "Surfinstructeur",
+    "careers.instructor.description": "We zoeken gepassioneerde surfers met certificering en leservaring. Perfect voor wie hun liefde voor de oceaan wil delen.",
+    "careers.apply-instructor": "Solliciteer nu voor Surfinstructeur functie",
+    "careers.internship.title": "Surf Stage Programma",
+    "careers.internship.description": "Krijg praktische ervaring in de surfindustrie. Perfect voor studenten en afgestudeerden geïnteresseerd in een carrière in surfen.",
+    "careers.apply-internship": "Solliciteer voor Stage",
+    "careers.spontaneous.title": "Spontane Sollicitatie",
+    "careers.spontaneous.description": "Zie je niet de juiste functie? Stuur ons je CV en vertel ons over je vaardigheden en passies.",
+    "careers.submit-cv": "CV Indienen",
+    
+    // Contact Page
+    "contact.title": "Neem Contact Op",
+    "contact.subtitle": "Heb je vragen of ben je klaar om je surfavontuur te boeken? Vul het formulier hieronder in of neem direct contact met ons op!",
+    "contact.whatsapp.title": "WhatsApp",
+    "contact.email.title": "Email",
+    "contact.location.title": "Locatie",
+    
+    // About Us Page
+    "about.title": "Over Surf Clube da Madeira",
+    "about.subtitle": "Ontdek ons verhaal, ontmoet het gepassioneerde team achter je surfavontuur en leer over onze unieke toezeggingen.",
+    "about.team.title": "Ontmoet Ons Toegewijde Team",
+    "about.team.subtitle": "We zijn een dynamische groep mensen die gepassioneerd zijn over wat we doen en toegewijd aan het leveren van de beste resultaten voor onze klanten.",
+    "about.joao.name": "João Febrer",
+    "about.joao.title": "CEO",
+    "about.joao.description": "João \"Johny\" Febrer is een surfinstructeur met meer dan 20 jaar ervaring in het water. Bekend om zijn kalme energie, diepe oceaankennis en geweldige gevoel voor humor, heeft João een natuurlijke vaardigheid om mensen te verbinden met de oceaan op een manier die zowel educatief als inspirerend is. Zijn aanpak van surflessen gaat verder dan techniek - hij focust op het opbouwen van respect voor de oceaan en het ontwikkelen van een diepe verbinding met de natuur.",
+    "about.rodrigo.name": "Rodrigo Farinha",
+    "about.rodrigo.title": "Product Manager",
+    "about.rodrigo.description": "Rodrigo brengt meer dan 15 jaar surfervaring en een solide achtergrond in Sportmanagement en Bedrijfswetenschappen. Als voormalig Regionaal Surfkampioen speelt hij een sleutelrol in de strategische ontwikkeling van de school, waarbij hij zijn passie voor surfen combineert met zakelijke vaardigheden. Zijn visie gaat verder dan traditioneel surfonderwijs - hij streeft naar het creëren van een holistische ervaring die niet alleen surfvaardigheden omvat, maar ook een dieper begrip van de oceaan en zijn ecosysteem.",
+    "about.magdalena.name": "Magdalena Szymaniak",
+    "about.magdalena.title": "Ohana Surfkampen Oprichter",
+    "about.magdalena.description": "Magdalena, de enige Poolse surfinstructeur in Madeira, arriveerde op het eiland in 2019 en werd snel verliefd op de surfscene van de regio. Met een masterdiploma in Toerisme en Recreatie, specialiseert Magdalena zich in het organiseren van surf- en yogakampen die fysieke activiteit combineren met welzijn. Haar unieke aanpak van surflessen omvat niet alleen technische aspecten, maar ook mindfulness en verbinding met de natuur, wat haar een gewaardeerd lid van het Surf Clube da Madeira team maakt.",
+    "about.facts.title": "Leuke Feiten over Surf Clube da Madeira",
+    "about.facts.subtitle": "Ontdek enkele van de mijlpalen en kenmerken die ons uniek maken!",
+    "about.facts.pioneering.title": "Pioniersgeest",
+    "about.facts.pioneering.subtitle": "1e Surfschool in Madeira met 20+ Jaar Ervaring",
+    "about.facts.pioneering.description": "We waren de eerste surfschool die werd opgericht op Madeira Eiland, waarmee we het begin markeerden van het delen van de passie voor golven in de regio en het bouwen van een surfgemeenschap.",
+    "about.facts.innovative.title": "Innovatieve Betalingen",
+    "about.facts.innovative.subtitle": "Eerste & Enige Surfschool in Madeira die Bitcoin Accepteert",
+    "about.facts.innovative.description": "We leidden de weg in innovatie door de eerste en enige surfschool in Madeira te zijn die Bitcoin (BTC) accepteert als betaalmethode, waarbij we de toekomst van digitaal geld omarmen.",
+    "about.facts.green.title": "Groene Toezegging",
+    "about.facts.green.subtitle": "Toegewijd aan Duurzame Initiatieven & Strandopruiming",
+    "about.facts.green.description": "We zijn actief toegewijd aan het bevorderen van milieuduurzaamheid op Madeira, inclusief regelmatige strandopruimingsinitiatieven en het bevorderen van milieuvriendelijke surfpraktijken.",
+    "about.facts.educational.title": "Educatieve Verbinding",
+    "about.facts.educational.subtitle": "Enige Surfschool met ERASMUS Protocol",
+    "about.facts.educational.description": "We zijn de enige surfschool in Madeira met een officieel protocol opgezet met het ERASMUS programma, waarbij we actief culturele en sportieve uitwisseling bevorderen.",
+    
+    // Discover Madeira Page
+    "discover.hero.title": "Ontdek de Magie van Madeira",
+    "discover.hero.subtitle": "Voorbij de golven, verken de levendige cultuur, adembenemende landschappen en spannende activiteiten die Madeira te bieden heeft.",
+    "discover.activities.title": "Activiteiten & Tours",
+    "discover.levada.title": "Levada Wandelingen & Hiken",
+    "discover.levada.description": "Verken Madeira's unieke irrigatiekanalen en weelderige laurierbossen. Perfect voor natuurliefhebbers, met diverse paden en adembenemende scenerie.",
+    "discover.learn-more": "Meer Leren",
+    "discover.photography.title": "Madeira Volledige Dag Fotografie Ervaring",
+    "discover.photography.description": "Ontdek Madeira door de ogen van een lokale fotograaf, waarbij je de unieke landschappen en verborgen juweeltjes vastlegt.",
+    "discover.sea.title": "Zee Tours",
+    "discover.sea.description": "Aanschouw zeedieren in hun natuurlijke habitat, inclusief dolfijnen en walvissen, aan boord van een comfortabele boottour.",
+    "discover.partners.title": "Onze Vertrouwde Partners",
+    "discover.car-rental.title": "Auto Verhuur",
+    "discover.ab4rent.title": "AB4 Rent",
+    "discover.ab4rent.description": "Betrouwbare en betaalbare auto verhuur om het eiland op je eigen tempo te verkennen met gemak en flexibiliteit.",
+    "discover.visit-website": "Bezoek Website",
+    "discover.beyond.title": "Beyonde Madeira",
+    "discover.beyond.description": "Betrouwbare en betaalbare auto verhuur om het eiland op je eigen tempo te verkennen met gemak en flexibiliteit.",
+    "discover.accommodation.title": "Accommodatie",
+    "discover.anislandapart.title": "An Island Apart",
+    "discover.anislandapart.description": "Een toonaangevend vastgoedbeheerbedrijf dat een brede selectie van kwaliteitsaccommodaties over heel Madeira Eiland aanbiedt.",
+    "discover.book-now": "Nu Boeken",
+    "discover.map.title": "Lokale Tips & Aanbevelingen Kaart",
+    "discover.map.subtitle": "Ontdek onze interactieve kaart met handgeplukte aanbevelingen van ons lokale team - met de beste restaurants, bars, ponchas en nachtclubs in Madeira. Laat ons weten als je onze keuzes leuk vindt! <a href=\"#tally-open=wQyZXg&tally-width=374&tally-emoji-text=👋&tally-emoji-animation=wave\" style=\"font-weight: bold; color: black;\">Beoordeel onze kaart hier</a>",
+    "discover.map.review-link": "Beoordeel onze kaart hier",
+    "discover.other.title": "Andere Activiteiten & Verborgen Juweeltjes",
+    "discover.santana.title": "Typische Huizen van Santana",
+    "discover.santana.description": "Ontdek de iconische driehoekige huizen met rieten dak, een uniek symbool van Madeira's cultureel erfgoed en architectonische charme.",
+    "discover.explore": "Verkennen",
+    "discover.market.title": "Mercado dos Lavradores (Boerenmarkt)",
+    "discover.market.description": "Duik in de lokale kleuren, geluiden en smaken op de levendige Boerenmarkt in Funchal. Mis niet de exotische vruchten en lokale Poncha te proberen!",
+    "discover.visit": "Bezoeken",
+    "discover.lapas.title": "Lapas (Traditioneel Madeira Voedsel)",
+    "discover.lapas.description": "Lapas zijn gegrilde alikruiken, een populair Madeira zeevruchtenlekkernij geserveerd met knoflook, boter en citroen. Eenvoudig, vers en vol oceaansmaak - een must voor zeevruchtenliefhebbers!",
+    "discover.taste": "Proeven",
+    
+    // Lessons Page
+    "lessons.page.title": "Onze Surflessen, Pakketten & Verhuur in Madeira",
+    "lessons.page.subtitle": "Leer surfen met onze ervaren lokale instructeurs",
+    
+    // Image captions
+    "lessons.image.maiata-beach": "Maiata Strand",
+    "lessons.image.praia-alagoa": "Praia da Alagoa",
+    "lessons.image.machico-beach": "Machico Strand",
+    
+    // Transport lesson
+    "lessons.transport.title": "Surfles met Vervoer",
+    "lessons.transport.description": "Begin je surfreis gemakkelijk! Onze groepsles omvat handige ophaal van Funchal, vervoer naar de beste surfspots en alle uitrusting. Perfect voor beginners en gevorderden.",
+    
+    // No transport lesson
+    "lessons.no-transport.title": "Surfles zonder Vervoer",
+    "lessons.no-transport.description": "Ontmoet ons direct op Alagoa Beach in Porto da Cruz voor je groeps surfles. Deze optie biedt flexibiliteit, inclusief alle benodigde uitrusting.",
+    
+    // Private lesson
+    "lessons.private.title": "Privé Surfles",
+    "lessons.private.description": "Krijg persoonlijke aandacht en versnelde leerervaring met een privé 1:1 surfles in Madeira. Aangepast aan je vaardigheidsniveau, of je nu beginner of gevorderd bent.",
+    
+    // Package lesson
+    "lessons.package.title": "Surf Pakket van 5 Lessen",
+    "lessons.package.description": "Verdiep je surfvaardigheden met ons afgeprijsde pakket van 5 lessen. Ontworpen voor continue vooruitgang, dit pakket omvat alle uitrusting en optioneel vervoer.",
+    "lessons.package.details.title": "Pakket Details",
+    "lessons.package.details.description": "Zodra je surfen probeert, wil je nooit meer stoppen! Krijg een pakket van 5 lessen met een aanzienlijke korting, waarmee je consistentie en vertrouwen kunt opbouwen op de golven met onze expert instructeurs. Elke les omvat volledige uitrusting en focus op je individuele vooruitgang.",
+    
+    // Rentals
+    "lessons.rentals.title": "Surfuitrusting Verhuur",
+    "lessons.rentals.description": "Huur hoogwaardige surfplanken en wetsuits om Madeira's golven onafhankelijk te verkennen. Ideaal voor ervaren surfers die de vrijheid willen om de beste spots te ontdekken.",
+    "lessons.rental.details.title": "Verhuur Details",
+    "lessons.rental.details.description": "Ervaar de spanning van het zelf surfen op de golven! We bieden een reeks surfplanken en wetsuits geschikt voor verschillende omstandigheden en vaardigheidsniveaus. Alle uitrusting wordt regelmatig onderhouden om een veilige en plezierige ervaring te garanderen.",
+    
+    // Camp
+    "lessons.camp.title": "Ohana Surf & Yoga Kamp",
+    "lessons.camp.description": "Weelderige groene kliffen die in de oceaan duiken, talloze palmbomen en perfecte golven maken dat je je voelt alsof je aan de andere kant van de wereld bent, maar je bent nog steeds in Europa - in Madeira!",
+    "lessons.camp.details.title": "Kamp Details",
+    "lessons.camp.surfing": "🌊 <b>Surf Ervaring -></b> Meer dan 12 uur surflessen van gecertificeerde instructeurs, geschikt voor alle vaardigheidsniveaus. Beschikbaar in Engels, Portugees, Pools en Spaans. Surfuitrusting (planken, wetsuits, leashes) en sportgezondheidsverzekering inbegrepen.",
+    "lessons.camp.yoga": "🧘 <b>Yoga & Welzijn -></b> Drie yogalessen vullen de surfsessies aan om flexibiliteit, balans en algemeen welzijn te verbeteren, aangepast om surfprestaties te ondersteunen en te verbeteren.",
+    "lessons.camp.accommodation": "🏡 <b>Accommodatie -></b> Ruime villa in Machico met prachtig zandstrand, vijf slaapkamers (elk met twee eenpersoonsbedden), drie badkamers, volledig uitgeruste keuken, gezellige woonkamer en terras met uitzicht op oceaan en bergen. Voorzieningen omvatten gratis Wi-Fi, handdoeken, beddengoed, BBQ-gebied en gratis parkeren.",
+    "lessons.camp.community": "🤝 <b>Gemeenschap & Ondersteuning -></b> Familiale sfeer die solo reizigers aanmoedigt om te verbinden. Het kamp wordt geleid door Magdalena, een surfinstructeur van Surf Clube da Madeira, en streeft naar het bieden van een authentieke lokale ervaring.",
+    
+    // Details section
+    "lessons.details.title": "Surfles Details",
+    "lessons.details.description": "Leer surfen in een leuke en veilige omgeving met onze gecertificeerde expert instructeurs. Deze uitgebreide les omvat theorie, warming-up, veiligheid en 1,5 uur in het water.",
+    
+    // Info labels
+    "lessons.info.total-duration": "Totale Duur",
+    "lessons.info.max-participants": "Max. Deelnemers",
+    "lessons.info.price": "Prijs",
+    "lessons.info.flexible": "Flexibel",
+    "lessons.info.participants": "Deelnemers",
+    "lessons.info.duration": "Duur",
+    "lessons.info.duration-value": "7 dagen",
+    "lessons.info.included": "Inbegrepen",
+    "lessons.info.included-value": "Alle uitrusting",
+    "lessons.info.price-value": "Vanaf 30€",
+    "lessons.info.quote": "Offerte",
+    "lessons.info.rental-duration": "Verhuurduur",
+    "lessons.info.rental-duration-value": "1 dag",
+    "lessons.info.duration-per-lesson": "~4h",
+    "lessons.feature.duration-transport": "Duur met vervoer",
+    "lessons.feature.duration-per-lesson": "Duur per les",
+  },
+  
   ru: {
     // Navigation
     "nav.home": "Главная",
@@ -3358,7 +3663,7 @@ function translatePage(lang) {
   
   // Update language dropdown button text (desktop and mobile)
   const languageNames = {
-    'en': 'EN', 'pl': 'PL', 'it': 'IT', 'de': 'DE', 'fr': 'FR', 'pt': 'PT', 'es': 'ES', 'uk': 'UK', 'fi': 'FI', 'sv': 'SV', 'ru': 'RU'
+    'en': 'EN', 'pl': 'PL', 'it': 'IT', 'de': 'DE', 'fr': 'FR', 'pt': 'PT', 'es': 'ES', 'uk': 'UK', 'fi': 'FI', 'sv': 'SV', 'ru': 'RU', 'nl': 'NL'
   };
   const displayName = languageNames[lang] || lang.toUpperCase();
   
