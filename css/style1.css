@@ -1962,6 +1962,7 @@ footer ul li a:focus::after {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Match your existing shadow */
   /* --- NEW: Adjust padding here --- */
   padding: 0px; /* Remove all padding from the wrapper */
+  background-color: #f8f9fa; /* Light background for better fallback display */
 }
 
 .tally-form-wrapper iframe {
@@ -1976,6 +1977,24 @@ footer ul li a:focus::after {
   /* --- NEW: Potentially reduce internal margins if needed by Tally's embed --- */
   /* This is less common but can sometimes help if Tally adds outer margins to its content */
   /* margin: 0; */
+}
+
+/* Fallback form styling */
+.tally-form-wrapper #form-fallback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.tally-form-wrapper #form-fallback .alert {
+  margin: 0;
+  max-width: 90%;
 }
 
 /* Adjust height for smaller screens if needed */
