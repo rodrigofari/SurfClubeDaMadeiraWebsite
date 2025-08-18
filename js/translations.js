@@ -3711,4 +3711,8 @@ function initializeTranslation() {
 }
 
 // Initialize translation system when DOM is ready
-document.addEventListener('DOMContentLoaded', initializeTranslation); 
+document.addEventListener('DOMContentLoaded', initializeTranslation);
+
+// Make translations globally available
+window.translations = translations;
+window.translatePage = translatePage; 

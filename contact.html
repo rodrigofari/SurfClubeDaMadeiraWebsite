@@ -210,7 +210,7 @@
         <div class="p-4 border rounded shadow-sm h-100">
           <i class="bi bi-geo-alt-fill" style="font-size: 2rem; color: var(--nav-link-hover-color);"></i>
           <h5 class="mt-3" data-translate="contact.location.title">Location</h5>
-          <p class="text-muted" data-translate="contact.location.address">Praia da Alagoa, Porto da Cruz, Madeira</p>
+          <p class="text-muted"><a href="https://share.google/ZzxrJPiT0tJYBMdi3" target="_blank" rel="noopener noreferrer" data-translate="contact.location.address">Praia da Alagoa, Porto da Cruz, Madeira</a></p>
         </div>
       </div>
     </div>
@@ -260,7 +260,7 @@
           <ul class="list-unstyled">
             <li><i class="bi bi-telephone-fill me-2"></i><a href="https://wa.me/351963356674" target="_blank" rel="noopener noreferrer">+351 963 356 674</a></li>
             <li><i class="bi bi-envelope-fill me-2"></i><a href="mailto:surfclubedamadeira@gmail.com">surfclubedamadeira@gmail.com</a></li>
-            <li><i class="bi bi-geo-alt-fill me-2"></i><span data-translate="contact.location.address">Praia da Alagoa, Porto da Cruz, Madeira</span></li>
+            <li><i class="bi bi-geo-alt-fill me-2"></i><a href="https://share.google/ZzxrJPiT0tJYBMdi3" target="_blank" rel="noopener noreferrer" data-translate="contact.location.address">Praia da Alagoa, Porto da Cruz, Madeira</a></li>
           </ul>
         </div>
       </div>
@@ -476,6 +476,17 @@
       // Initialize Tally form
       initializeTallyForm();
 
+      // --- LANGUAGE SWITCHING FUNCTIONALITY ---
+      // Add event listeners for language dropdown items
+      document.addEventListener('click', function(e) {
+        if (e.target && e.target.hasAttribute('data-lang')) {
+          e.preventDefault();
+          const lang = e.target.getAttribute('data-lang');
+          if (window.translations && window.translations[lang]) {
+            translatePage(lang);
+          }
+        }
+      });
 
     });
   </script>
