@@ -285,11 +285,62 @@
       <script src="//code.tidio.co/fa5jynywdacn2aacsvqfmrvhytil3dk9.js"></script>
 
   <script>
+    console.log('🔍 Contact page script starting...');
     document.addEventListener('DOMContentLoaded', function() {
+      console.log('🔍 DOM Content Loaded event fired');
       // --- Script for current year ---
       const yearSpan = document.getElementById('current-year');
       if (yearSpan) {
         yearSpan.textContent = new Date().getFullYear();
+      }
+
+      // --- IMMEDIATE DROPDOWN TEST ---
+      console.log('🔍 Testing dropdown elements immediately...');
+      const languageDropdown = document.querySelector('#languageDropdown');
+      const languageDropdownMobile = document.querySelector('#languageDropdownMobile');
+      console.log('Desktop dropdown found:', !!languageDropdown);
+      console.log('Mobile dropdown found:', !!languageDropdownMobile);
+      
+      if (languageDropdown) {
+        console.log('Desktop dropdown HTML:', languageDropdown.outerHTML);
+        
+        // Add click event to test what happens when button is clicked
+        languageDropdown.addEventListener('click', function(e) {
+          console.log('🌐 Language dropdown clicked!');
+          console.log('Button clicked:', this);
+          
+          // Find the dropdown menu
+          const dropdownMenu = this.nextElementSibling;
+          console.log('Dropdown menu found:', !!dropdownMenu);
+          console.log('Dropdown menu HTML:', dropdownMenu ? dropdownMenu.outerHTML : 'Not found');
+          
+          if (dropdownMenu) {
+            const isVisible = dropdownMenu.classList.contains('show');
+            console.log('Menu currently visible:', isVisible);
+            
+            // Toggle the menu properly
+            if (isVisible) {
+              // Close the menu
+              dropdownMenu.classList.remove('show');
+              this.setAttribute('aria-expanded', 'false');
+              console.log('🔒 Closing dropdown menu');
+            } else {
+              // Open the menu
+              dropdownMenu.classList.add('show');
+              this.setAttribute('aria-expanded', 'true');
+              console.log('🔓 Opening dropdown menu');
+            }
+          }
+        });
+        
+        // Add click outside handler to close dropdown
+        document.addEventListener('click', function(e) {
+          if (!languageDropdown.contains(e.target) && !dropdownMenu.contains(e.target)) {
+            dropdownMenu.classList.remove('show');
+            languageDropdown.setAttribute('aria-expanded', 'false');
+            console.log('🔒 Closing dropdown (clicked outside)');
+          }
+        });
       }
 
       // --- MODIFIED SCRIPT for DESKTOP active nav link (handles hash correctly) ---
@@ -476,31 +527,92 @@
       // Initialize Tally form
       initializeTallyForm();
 
-      // --- LANGUAGE SWITCHING DEBUGGING ---
-      // Check if language system is properly loaded
+      // --- BOOTSTRAP DROPDOWN INITIALIZATION ---
+      // Ensure Bootstrap dropdowns are properly initialized
+      console.log('🔍 About to initialize dropdowns...');
       setTimeout(() => {
-        console.log('=== LANGUAGE SYSTEM DEBUG ===');
-        console.log('Translations available:', !!window.translations);
-        console.log('TranslatePage function available:', !!window.translatePage);
+        console.log('🌍 Initializing Bootstrap dropdowns...');
         
-        // Check if dropdown elements exist
-        const desktopDropdown = document.querySelector('#languageDropdown');
-        const mobileDropdown = document.querySelector('#languageDropdownMobile');
-        console.log('Desktop dropdown found:', !!desktopDropdown);
-        console.log('Mobile dropdown found:', !!mobileDropdown);
+        // Initialize all dropdowns manually
+        const dropdownElementList = document.querySelectorAll('.dropdown-toggle');
+        const dropdownList = [...dropdownElementList].map(dropdownToggleEl => new bootstrap.Dropdown(dropdownToggleEl));
         
-        // Check if dropdown menus exist
-        const desktopMenu = document.querySelector('[aria-labelledby="languageDropdown"]');
-        const mobileMenu = document.querySelector('[aria-labelledby="languageDropdownMobile"]');
-        console.log('Desktop menu found:', !!desktopMenu);
-        console.log('Mobile menu found:', !!mobileMenu);
+        console.log('✅ Bootstrap dropdowns initialized:', dropdownList.length);
         
-        // Test manual translation
+        // Test language system
         if (window.translatePage && window.translations) {
-          console.log('Language system appears to be working');
-        } else {
-          console.error('Language system not properly loaded');
+          console.log('✅ Language system is fully functional');
         }
+        
+        // Add click event to test dropdown functionality
+        const languageDropdowns = document.querySelectorAll('[id*="languageDropdown"]');
+        languageDropdowns.forEach(dropdown => {
+          dropdown.addEventListener('click', function(e) {
+            console.log('🌐 Language dropdown clicked:', this.id);
+            
+            // Manual fallback: toggle dropdown menu visibility
+            const dropdownMenu = this.nextElementSibling;
+            if (dropdownMenu && dropdownMenu.classList.contains('dropdown-menu')) {
+              const isVisible = dropdownMenu.classList.contains('show');
+              if (isVisible) {
+                dropdownMenu.classList.remove('show');
+              } else {
+                dropdownMenu.classList.add('show');
+              }
+              console.log('Manual dropdown toggle:', isVisible ? 'hidden' : 'shown');
+            }
+          });
+        });
+        
+        // Add CSS to ensure dropdowns are visible
+        const style = document.createElement('style');
+        style.textContent = `
+          .dropdown-menu.show {
+            display: block !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+            z-index: 9999 !important;
+            position: absolute !important;
+            top: 100% !important;
+            left: 0 !important;
+            background: white !important;
+            border: 1px solid #ddd !important;
+            border-radius: 4px !important;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+            min-width: 150px !important;
+          }
+          
+          .dropdown-menu {
+            z-index: 9999 !important;
+          }
+          
+          .dropdown {
+            position: relative !important;
+          }
+        `;
+        document.head.appendChild(style);
+        
+        // Debug: Check dropdown menu content
+        const dropdownMenus = document.querySelectorAll('.dropdown-menu');
+        dropdownMenus.forEach((menu, index) => {
+          console.log(`Dropdown menu ${index}:`, menu);
+          console.log(`Menu content:`, menu.innerHTML);
+          console.log(`Menu visibility:`, window.getComputedStyle(menu).display);
+        });
+        
+        // Force show dropdown for testing
+        setTimeout(() => {
+          const desktopDropdown = document.querySelector('#languageDropdown');
+          const desktopMenu = document.querySelector('[aria-labelledby="languageDropdown"]');
+          if (desktopDropdown && desktopMenu) {
+            console.log('🔧 Testing dropdown visibility...');
+            desktopMenu.style.display = 'block';
+            desktopMenu.style.opacity = '1';
+            desktopMenu.style.visibility = 'visible';
+            desktopMenu.style.zIndex = '9999';
+            console.log('✅ Forced dropdown to show - check if you can see it now');
+          }
+        }, 2000);
       }, 1000);
 
     });
