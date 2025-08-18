@@ -279,7 +279,7 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-      <script src="./js/translations.js?v=20250819"></script>
+      <script src="./js/translations.js?v=20250820"></script>
       
       <!-- Tidio Live Chat -->
       <script src="//code.tidio.co/fa5jynywdacn2aacsvqfmrvhytil3dk9.js"></script>
@@ -476,17 +476,32 @@
       // Initialize Tally form
       initializeTallyForm();
 
-      // --- LANGUAGE SWITCHING FUNCTIONALITY ---
-      // Add event listeners for language dropdown items
-      document.addEventListener('click', function(e) {
-        if (e.target && e.target.hasAttribute('data-lang')) {
-          e.preventDefault();
-          const lang = e.target.getAttribute('data-lang');
-          if (window.translations && window.translations[lang]) {
-            translatePage(lang);
-          }
+      // --- LANGUAGE SWITCHING DEBUGGING ---
+      // Check if language system is properly loaded
+      setTimeout(() => {
+        console.log('=== LANGUAGE SYSTEM DEBUG ===');
+        console.log('Translations available:', !!window.translations);
+        console.log('TranslatePage function available:', !!window.translatePage);
+        
+        // Check if dropdown elements exist
+        const desktopDropdown = document.querySelector('#languageDropdown');
+        const mobileDropdown = document.querySelector('#languageDropdownMobile');
+        console.log('Desktop dropdown found:', !!desktopDropdown);
+        console.log('Mobile dropdown found:', !!mobileDropdown);
+        
+        // Check if dropdown menus exist
+        const desktopMenu = document.querySelector('[aria-labelledby="languageDropdown"]');
+        const mobileMenu = document.querySelector('[aria-labelledby="languageDropdownMobile"]');
+        console.log('Desktop menu found:', !!desktopMenu);
+        console.log('Mobile menu found:', !!mobileMenu);
+        
+        // Test manual translation
+        if (window.translatePage && window.translations) {
+          console.log('Language system appears to be working');
+        } else {
+          console.error('Language system not properly loaded');
         }
-      });
+      }, 1000);
 
     });
   </script>
